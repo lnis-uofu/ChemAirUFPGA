@@ -1,0 +1,166 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+// Declare functions
+void ADC_init(XGpio adc_gpio[], int s);
+void ADC_read();
+void transmit_data(int v);
+
+// Declare global variables
+u32 status[12];
+u32 data[12];
+u32 period = 100000000;
+u32 timer_status, ntimer_status;
+u16 timer_offset = 12;
+u8  status_change[12];
+XGpio ADC[12], variable_timer;
+
+
+int main(){
+
+
+	// Initialize AXI GPIO
+	//xil_printf("\r\n\n---------Initializing ADC---------");
+	ADC_init(ADC, 12);
+
+	// Initialize variable timer
+	//xil_printf("\r\n\n---------Initializing timer ------");
+	XGpio_Initialize(&variable_timer, 12);
+	XGpio_SetDataDirection(&variable_timer, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&variable_timer, 1, 0x00000000);
+	XGpio_DiscreteWrite(&variable_timer, 1, period);
+	//xil_printf("\r\n-----------Finished initializing timer");
+	timer_status = XGpio_DiscreteRead(&variable_timer, 2);
+	ntimer_status = timer_status;
+
+	// Main loop
+	//xil_printf("\r\n\n---------Starting main loop-------");
+	while(1){
+
+		// Read the GPIO ports
+		ADC_read();
+
+		// Transmit data if the timer has triggered
+		timer_status = XGpio_DiscreteRead(&variable_timer, 2);
+		if(ntimer_status != timer_status){
+			ntimer_status = timer_status;
+			transmit_data(1);
+		}
+	}
+
+
+}
+
+// Initialize the ADCs
+void ADC_init(XGpio adc_gpio[], int s){
+	for(int i = 0; i < s; i++){
+		xil_printf("\r\nInitializing ADC[%i]", i);     /////////////////////////////////////////////////////////////////////
+		XGpio_Initialize(&adc_gpio[i], i);
+		XGpio_SetDataDirection(&adc_gpio[i], 2, 0xFFFFFFFF);
+		XGpio_SetDataDirection(&adc_gpio[i], 1, 0xFFFFFFFF);
+	}
+}
+
+// Read the ADC data
+void ADC_read(){
+	u32 temp_status[12];
+	for(int i = 0; i < 12; i++){
+		temp_status[i] = status[i];
+		status[i] = XGpio_DiscreteRead(&ADC[i], 2);
+		data[i]   = XGpio_DiscreteRead(&ADC[i], 1);
+		if(temp_status[i] != status[i]){
+			temp_status[i] = status[i];
+			status_change[i] = 1;
+		}
+	}
+}
+
+// Transmit data over uart
+void transmit_data(int v){
+
+	// Human readable transmissions (debugging)
+	if(v == 1){
+		xil_printf("\r\n\nADC[#][ADC data][ADC status][ADC pulse][ADC Hz][ADC Hz]");
+		for(int i = 0; i < 1; i++){ //for(int i = 0; i < 12; i++){
+
+			// Calculate the ADC Frequency (x10,000)
+			u32 adc_frequency = (u32) ((200000000.0/data[i]) * 10000);
+			u16 adc_frequency_short = (u16) adc_frequency;
+
+			// Convert to a char list
+			char backwards_adc_frequency[5];
+			char temp_adc_frequency[5];
+			char final_adc_frequency[6];
+			int idx_temp = 0;
+			while((adc_frequency > 0) && (idx_temp < 5)){
+				backwards_adc_frequency[idx_temp++] = adc_frequency % 10 + '0';
+				adc_frequency /= 10;
+			}
+
+			// Zero fill
+			for(int i = idx_temp; i < 5; i++){
+				backwards_adc_frequency[i] = '0';
+			}
+
+			// Reverse the character order
+			for(int i = 0; i < 5; i++){
+				temp_adc_frequency[i] = backwards_adc_frequency[4 - i];
+			}
+
+			final_adc_frequency[0] = temp_adc_frequency[0];
+			final_adc_frequency[1] = '.';
+
+			for(int i = 2; i < 6; i++){
+				final_adc_frequency[i] = temp_adc_frequency[i - 1];
+			}
+
+
+			xil_printf("\r\nADC[%2i][%10u][%1u][%1u][", i, data[i], status[i], status_change[i]);
+			xil_printf(final_adc_frequency);
+			xil_printf("]");
+			//xil_printf("][%u]",adc_frequency_short);
+			status_change[i] = 0;
+		}
+	}
+
+	// Regular transmissions
+	if(v == 0){
+
+
+		char transmission_packet [26];
+		transmission_packet[0] = '\n'; // The start bit for the transmission
+
+		u8 parity;
+
+		for(int i = 0; i < 12; i++){
+
+			// Calculate the ADC Frequency (x10,000)
+			u16 adc_frequency = (u16) ((200000000.0/data[i]) * 10000);
+
+			// Convert the frequency to character that can be transmitted
+			transmission_packet[2*i + 1]  = (char) ((adc_frequency & 0xFF00) >> 8);
+			transmission_packet[2*i + 2]  = (char) adc_frequency & 0x00FF;
+
+			// Calculate the parity byte
+			parity = parity ^ ((adc_frequency & 0xFF00) >> 8);
+			parity = parity ^ (adc_frequency & 0x00FF);
+		}
+
+		// Add the parity byte to the transmission
+		transmission_packet[25] = (char) parity;
+
+		// Transmit the data
+		for(int i = 0; i < 26; i++){
+			outbyte(transmission_packet[i]);
+		}
+
+
+	}
+}
+

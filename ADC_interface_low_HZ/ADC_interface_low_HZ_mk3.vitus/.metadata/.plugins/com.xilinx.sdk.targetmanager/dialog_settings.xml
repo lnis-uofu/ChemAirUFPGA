@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="ADC_interface_low_HZ_mk3_system-bitFile" value="${project_loc:ADC_interface_low_HZ_mk3}/_ide/bitstream/design_1_wrapper_mk3.bit"/>
+	<item key="ADC_interface_low_HZ_mk3_system-bmmFile" value="${project_loc:ADC_interface_low_HZ_mk3}/_ide/bitstream/design_1_wrapper_mk3.mmi"/>
+	<item key="ADC_interface_low_HZ_mk3_system-target" value="Local"/>
+	<item key="ADC_interface_low_HZ_mk3_system-device" value="Auto Detect"/>
+	<item key="ADC_interface_low_HZ_mk3_system-partial_bit" value="false"/>
+	<item key="ADC_interface_low_HZ_mk3_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="ADC_interface_low_HZ_mk3_system"/>
+	<item key="ADC_interface_low_HZ_mk3_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Cmod A7 - 15T 210328AB7F86A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0&quot;}}]}"/>
+</section>

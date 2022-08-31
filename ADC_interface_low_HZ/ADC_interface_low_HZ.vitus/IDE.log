@@ -1,0 +1,1419 @@
+14:01:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+14:01:14 INFO  : Registering command handlers for Vitis TCF services
+14:01:14 INFO  : Platform repository initialization has completed.
+14:01:19 INFO  : XSCT server has started successfully.
+14:01:19 INFO  : Successfully done setting XSCT server connection channel  
+14:01:22 INFO  : plnx-install-location is set to ''
+14:01:22 INFO  : Successfully done query RDI_DATADIR 
+14:01:22 INFO  : Successfully done setting workspace for the tool. 
+14:02:29 INFO  : Result from executing command 'getProjects': ADC_interface_low_HZ
+14:02:29 INFO  : Result from executing command 'getPlatforms': 
+14:04:16 INFO  : Result from executing command 'getProjects': ADC_interface_low_HZ
+14:04:16 INFO  : Result from executing command 'getPlatforms': ADC_interface_low_HZ|C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/ADC_interface_low_HZ.xpfm
+14:14:17 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:19:02 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit' is generated.
+14:19:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:19:07 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:22:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:23:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:23:40 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:23:41 INFO  : 'jtag frequency' command is executed.
+14:23:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:23:41 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:23:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:23:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:23:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:41 INFO  : System reset is completed.
+14:23:44 INFO  : 'after 3000' command is executed.
+14:23:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:45 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:23:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:23:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:45 INFO  : 'con' command is executed.
+14:23:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:23:45 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:29:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+14:33:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+14:33:45 INFO  : XSCT server has started successfully.
+14:33:45 INFO  : Successfully done setting XSCT server connection channel  
+14:33:45 INFO  : plnx-install-location is set to ''
+14:33:45 INFO  : Successfully done setting workspace for the tool. 
+14:33:45 INFO  : Platform repository initialization has completed.
+14:33:46 INFO  : Registering command handlers for Vitis TCF services
+14:33:49 INFO  : Successfully done query RDI_DATADIR 
+14:34:15 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit' is generated.
+14:34:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:34:19 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:34:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:48 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:34:48 INFO  : 'jtag frequency' command is executed.
+14:34:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:34:49 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:34:49 INFO  : Context for processor 'microblaze_0' is selected.
+14:34:49 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:34:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:34:49 INFO  : Context for processor 'microblaze_0' is selected.
+14:34:49 INFO  : System reset is completed.
+14:34:52 INFO  : 'after 3000' command is executed.
+14:34:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:34:52 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:34:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:34:53 INFO  : Context for processor 'microblaze_0' is selected.
+14:34:53 INFO  : 'con' command is executed.
+14:34:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:34:53 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:35:00 INFO  : Disconnected from the channel tcfchan#1.
+14:35:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:35:00 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:35:00 INFO  : 'jtag frequency' command is executed.
+14:35:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:35:01 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:35:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:35:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:35:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:35:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:35:01 INFO  : System reset is completed.
+14:35:04 INFO  : 'after 3000' command is executed.
+14:35:04 INFO  : Context for processor 'microblaze_0' is selected.
+14:35:04 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:35:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:35:05 INFO  : Context for processor 'microblaze_0' is selected.
+14:35:05 INFO  : 'con' command is executed.
+14:35:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:35:05 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:37:49 INFO  : Disconnected from the channel tcfchan#2.
+13:07:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+13:07:41 INFO  : Registering command handlers for Vitis TCF services
+13:07:41 INFO  : Platform repository initialization has completed.
+13:07:42 INFO  : XSCT server has started successfully.
+13:07:42 INFO  : plnx-install-location is set to ''
+13:07:45 INFO  : Successfully done setting XSCT server connection channel  
+13:07:50 INFO  : Successfully done query RDI_DATADIR 
+13:07:50 INFO  : Successfully done setting workspace for the tool. 
+13:09:08 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit' is generated.
+13:09:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:09:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:09:13 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:17:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:17:38 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:17:38 INFO  : 'jtag frequency' command is executed.
+13:17:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:17:39 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:17:39 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:17:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:17:39 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:39 INFO  : System reset is completed.
+13:17:42 INFO  : 'after 3000' command is executed.
+13:17:42 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:43 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:17:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:17:43 INFO  : Context for processor 'microblaze_0' is selected.
+13:17:44 INFO  : 'con' command is executed.
+13:17:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:17:44 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:23:24 INFO  : Result from executing command 'getProjects': ADC_interface_low_HZ
+13:23:24 INFO  : Result from executing command 'getPlatforms': ADC_interface_low_HZ|C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/ADC_interface_low_HZ.xpfm
+13:23:24 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:23:57 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:24:03 INFO  : Disconnected from the channel tcfchan#1.
+13:24:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:24:03 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:24:03 INFO  : 'jtag frequency' command is executed.
+13:24:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:24:04 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:24:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:24:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:24:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:04 INFO  : System reset is completed.
+13:24:07 INFO  : 'after 3000' command is executed.
+13:24:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:08 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:24:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:24:08 INFO  : Context for processor 'microblaze_0' is selected.
+13:24:08 INFO  : 'con' command is executed.
+13:24:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:24:08 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:27:03 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:27:08 INFO  : Disconnected from the channel tcfchan#3.
+13:27:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:27:08 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:27:08 INFO  : 'jtag frequency' command is executed.
+13:27:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:27:09 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:27:09 INFO  : Context for processor 'microblaze_0' is selected.
+13:27:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:27:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:27:09 INFO  : Context for processor 'microblaze_0' is selected.
+13:27:09 INFO  : System reset is completed.
+13:27:12 INFO  : 'after 3000' command is executed.
+13:27:12 INFO  : Context for processor 'microblaze_0' is selected.
+13:27:13 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:27:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:27:13 INFO  : Context for processor 'microblaze_0' is selected.
+13:27:13 INFO  : 'con' command is executed.
+13:27:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:27:13 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:28:34 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:28:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:38 INFO  : Disconnected from the channel tcfchan#4.
+13:28:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:28:38 ERROR : 
+13:28:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:45 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:28:45 INFO  : 'jtag frequency' command is executed.
+13:28:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:28:45 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:28:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:28:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:28:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:28:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:28:46 INFO  : System reset is completed.
+13:28:49 INFO  : 'after 3000' command is executed.
+13:28:49 INFO  : Context for processor 'microblaze_0' is selected.
+13:28:49 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:28:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:28:50 INFO  : Context for processor 'microblaze_0' is selected.
+13:28:50 INFO  : 'con' command is executed.
+13:28:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:28:50 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:31:11 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:31:16 INFO  : Disconnected from the channel tcfchan#5.
+13:31:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:31:16 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:31:16 INFO  : 'jtag frequency' command is executed.
+13:31:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:31:17 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:31:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:31:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:31:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:17 INFO  : System reset is completed.
+13:31:20 INFO  : 'after 3000' command is executed.
+13:31:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:20 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:31:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:31:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:21 INFO  : 'con' command is executed.
+13:31:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:31:21 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:31:36 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:31:40 INFO  : Disconnected from the channel tcfchan#6.
+13:31:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:31:40 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:31:40 INFO  : 'jtag frequency' command is executed.
+13:31:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:31:41 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:31:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:31:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:31:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:41 INFO  : System reset is completed.
+13:31:44 INFO  : 'after 3000' command is executed.
+13:31:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:45 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:31:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:31:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:31:45 INFO  : 'con' command is executed.
+13:31:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:31:45 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+13:32:42 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+13:32:46 INFO  : Disconnected from the channel tcfchan#7.
+13:32:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:32:46 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+13:32:46 INFO  : 'jtag frequency' command is executed.
+13:32:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+13:32:47 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+13:32:47 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+13:32:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:32:47 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:47 INFO  : System reset is completed.
+13:32:50 INFO  : 'after 3000' command is executed.
+13:32:50 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:50 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+13:32:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+13:32:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:51 INFO  : 'con' command is executed.
+13:32:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:32:51 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:32:24 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:32:41 INFO  : Disconnected from the channel tcfchan#8.
+14:32:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:41 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:32:41 INFO  : 'jtag frequency' command is executed.
+14:32:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:32:41 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:32:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:32:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:32:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:42 INFO  : System reset is completed.
+14:32:45 INFO  : 'after 3000' command is executed.
+14:32:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:45 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:32:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:32:45 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:45 INFO  : 'con' command is executed.
+14:32:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:32:45 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:37:45 INFO  : Disconnected from the channel tcfchan#9.
+14:37:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:45 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:37:45 INFO  : 'jtag frequency' command is executed.
+14:37:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:37:46 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:37:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:37:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:37:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:46 INFO  : System reset is completed.
+14:37:49 INFO  : 'after 3000' command is executed.
+14:37:49 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:50 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:37:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:37:50 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:50 INFO  : 'con' command is executed.
+14:37:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:37:50 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:45:58 INFO  : Disconnected from the channel tcfchan#10.
+14:45:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:58 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:45:58 INFO  : 'jtag frequency' command is executed.
+14:45:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:45:59 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:45:59 INFO  : Context for processor 'microblaze_0' is selected.
+14:45:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:45:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:45:59 INFO  : Context for processor 'microblaze_0' is selected.
+14:45:59 INFO  : System reset is completed.
+14:46:02 INFO  : 'after 3000' command is executed.
+14:46:02 INFO  : Context for processor 'microblaze_0' is selected.
+14:46:02 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:46:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:46:03 INFO  : Context for processor 'microblaze_0' is selected.
+14:46:03 INFO  : 'con' command is executed.
+14:46:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:46:03 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:46:53 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:46:57 INFO  : Disconnected from the channel tcfchan#11.
+14:46:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:46:57 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:46:57 INFO  : 'jtag frequency' command is executed.
+14:46:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:46:58 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:46:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:46:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:46:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:46:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:46:58 INFO  : System reset is completed.
+14:47:01 INFO  : 'after 3000' command is executed.
+14:47:01 INFO  : Context for processor 'microblaze_0' is selected.
+14:47:01 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:47:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:47:02 INFO  : Context for processor 'microblaze_0' is selected.
+14:47:02 INFO  : 'con' command is executed.
+14:47:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:47:02 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+14:47:39 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:48:26 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:52:13 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:53:24 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:53:51 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:54:02 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:56:31 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+14:56:36 INFO  : Disconnected from the channel tcfchan#12.
+14:56:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:56:37 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+14:56:37 INFO  : 'jtag frequency' command is executed.
+14:56:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+14:56:37 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+14:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+14:56:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:37 INFO  : System reset is completed.
+14:56:40 INFO  : 'after 3000' command is executed.
+14:56:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:41 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+14:56:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+14:56:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:56:41 INFO  : 'con' command is executed.
+14:56:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:56:41 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:02:55 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:03:46 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:14:38 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:14:42 INFO  : Disconnected from the channel tcfchan#13.
+15:14:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:42 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:14:42 INFO  : 'jtag frequency' command is executed.
+15:14:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:14:43 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:14:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:14:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:14:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:43 INFO  : System reset is completed.
+15:14:46 INFO  : 'after 3000' command is executed.
+15:14:46 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:46 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:14:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:14:47 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:47 INFO  : 'con' command is executed.
+15:14:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:14:47 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:16:52 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:16:56 INFO  : Disconnected from the channel tcfchan#14.
+15:16:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:56 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:16:56 INFO  : 'jtag frequency' command is executed.
+15:16:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:16:57 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:16:57 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:16:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:16:57 INFO  : Context for processor 'microblaze_0' is selected.
+15:16:57 INFO  : System reset is completed.
+15:17:00 INFO  : 'after 3000' command is executed.
+15:17:00 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:01 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:17:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:17:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:01 INFO  : 'con' command is executed.
+15:17:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:17:01 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:20:16 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:20:47 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:21:09 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:21:14 INFO  : Disconnected from the channel tcfchan#15.
+15:21:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:14 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:21:14 INFO  : 'jtag frequency' command is executed.
+15:21:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:21:15 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:21:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:21:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:21:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:15 INFO  : System reset is completed.
+15:21:18 INFO  : 'after 3000' command is executed.
+15:21:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:19 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:21:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:21:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:19 INFO  : 'con' command is executed.
+15:21:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:21:19 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:22:25 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:22:34 INFO  : Disconnected from the channel tcfchan#16.
+15:22:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:22:34 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:22:34 INFO  : 'jtag frequency' command is executed.
+15:22:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:22:35 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:22:35 INFO  : Context for processor 'microblaze_0' is selected.
+15:22:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:22:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:22:35 INFO  : Context for processor 'microblaze_0' is selected.
+15:22:35 INFO  : System reset is completed.
+15:22:38 INFO  : 'after 3000' command is executed.
+15:22:38 INFO  : Context for processor 'microblaze_0' is selected.
+15:22:38 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:22:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:22:38 INFO  : Context for processor 'microblaze_0' is selected.
+15:22:39 INFO  : 'con' command is executed.
+15:22:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:22:39 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:23:57 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:24:01 INFO  : Disconnected from the channel tcfchan#17.
+15:24:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:01 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:24:01 INFO  : 'jtag frequency' command is executed.
+15:24:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:24:02 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:24:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:24:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:24:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:02 INFO  : System reset is completed.
+15:24:05 INFO  : 'after 3000' command is executed.
+15:24:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:05 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:24:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:24:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:06 INFO  : 'con' command is executed.
+15:24:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:24:06 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:25:36 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:25:46 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:26:20 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:26:41 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:26:44 INFO  : Disconnected from the channel tcfchan#18.
+15:26:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:45 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:26:45 INFO  : 'jtag frequency' command is executed.
+15:26:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:26:45 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:26:45 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:26:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:26:46 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:46 INFO  : System reset is completed.
+15:26:49 INFO  : 'after 3000' command is executed.
+15:26:49 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:49 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:26:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:26:49 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:50 INFO  : 'con' command is executed.
+15:26:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:26:50 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:27:36 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:27:39 INFO  : Disconnected from the channel tcfchan#19.
+15:27:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:39 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:27:39 INFO  : 'jtag frequency' command is executed.
+15:27:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:27:40 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:27:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:27:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:27:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:40 INFO  : System reset is completed.
+15:27:43 INFO  : 'after 3000' command is executed.
+15:27:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:43 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:27:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:27:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:44 INFO  : 'con' command is executed.
+15:27:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:27:44 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:27:46 INFO  : Disconnected from the channel tcfchan#20.
+15:27:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:46 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+15:27:46 INFO  : 'jtag frequency' command is executed.
+15:27:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+15:27:47 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+15:27:47 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+15:27:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:27:47 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:47 INFO  : System reset is completed.
+15:27:50 INFO  : 'after 3000' command is executed.
+15:27:50 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:50 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+15:27:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+15:27:51 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:51 INFO  : 'con' command is executed.
+15:27:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:27:51 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+15:29:05 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+15:41:18 INFO  : Disconnected from the channel tcfchan#21.
+17:18:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+17:18:08 INFO  : Platform repository initialization has completed.
+17:18:09 INFO  : Registering command handlers for Vitis TCF services
+17:18:10 INFO  : XSCT server has started successfully.
+17:18:10 INFO  : Successfully done setting XSCT server connection channel  
+17:18:14 INFO  : plnx-install-location is set to ''
+17:18:14 INFO  : Successfully done setting workspace for the tool. 
+17:18:14 INFO  : Successfully done query RDI_DATADIR 
+17:20:26 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:24:47 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit' is generated.
+17:24:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:24:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:24:51 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:25:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:25:52 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:25:53 INFO  : 'jtag frequency' command is executed.
+17:25:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:25:53 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:25:53 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:25:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:25:54 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:54 INFO  : System reset is completed.
+17:25:57 INFO  : 'after 3000' command is executed.
+17:25:57 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:57 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:25:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:25:57 INFO  : Context for processor 'microblaze_0' is selected.
+17:25:57 INFO  : 'con' command is executed.
+17:25:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:25:58 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:36:59 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:38:13 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:38:26 INFO  : Disconnected from the channel tcfchan#1.
+17:38:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:26 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:38:26 INFO  : 'jtag frequency' command is executed.
+17:38:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:38:27 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:38:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:38:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:38:27 INFO  : Context for processor 'microblaze_0' is selected.
+17:38:27 INFO  : System reset is completed.
+17:38:30 INFO  : 'after 3000' command is executed.
+17:38:30 INFO  : Context for processor 'microblaze_0' is selected.
+17:38:31 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:38:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:38:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:38:31 INFO  : 'con' command is executed.
+17:38:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:38:31 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:39:32 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:39:38 INFO  : Disconnected from the channel tcfchan#2.
+17:39:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:38 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:39:38 INFO  : 'jtag frequency' command is executed.
+17:39:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:39:39 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:39:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:39:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:39:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:39:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:39:39 INFO  : System reset is completed.
+17:39:42 INFO  : 'after 3000' command is executed.
+17:39:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:39:42 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:39:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:39:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:39:43 INFO  : 'con' command is executed.
+17:39:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:39:43 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:43:03 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:43:06 INFO  : Disconnected from the channel tcfchan#3.
+17:43:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:06 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:43:06 INFO  : 'jtag frequency' command is executed.
+17:43:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:43:07 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:43:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:43:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:43:07 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:07 INFO  : System reset is completed.
+17:43:10 INFO  : 'after 3000' command is executed.
+17:43:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:11 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:43:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:43:11 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:11 INFO  : 'con' command is executed.
+17:43:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:43:11 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:55:37 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:55:57 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:56:01 INFO  : Disconnected from the channel tcfchan#4.
+17:56:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:01 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:56:01 INFO  : 'jtag frequency' command is executed.
+17:56:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:56:02 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:56:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:56:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:56:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:03 INFO  : System reset is completed.
+17:56:06 INFO  : 'after 3000' command is executed.
+17:56:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:06 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:56:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:56:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:56:06 INFO  : 'con' command is executed.
+17:56:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:56:06 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:56:56 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:57:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:00 INFO  : Disconnected from the channel tcfchan#5.
+17:57:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:57:00 ERROR : Invalid target. Use "connect" command to connect to hw_server/TCF agent
+17:57:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:05 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:57:05 INFO  : 'jtag frequency' command is executed.
+17:57:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:57:06 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:57:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:57:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:57:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:06 INFO  : System reset is completed.
+17:57:09 INFO  : 'after 3000' command is executed.
+17:57:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:09 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:57:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:57:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:57:10 INFO  : 'con' command is executed.
+17:57:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:57:10 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:58:05 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:58:08 INFO  : Disconnected from the channel tcfchan#6.
+17:58:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:58:09 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:58:09 INFO  : 'jtag frequency' command is executed.
+17:58:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:58:09 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:10 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:58:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:58:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:10 INFO  : System reset is completed.
+17:58:13 INFO  : 'after 3000' command is executed.
+17:58:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:13 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:58:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:58:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:58:14 INFO  : 'con' command is executed.
+17:58:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:58:14 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+17:59:26 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:59:37 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+17:59:40 INFO  : Disconnected from the channel tcfchan#7.
+17:59:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:59:40 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+17:59:40 INFO  : 'jtag frequency' command is executed.
+17:59:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+17:59:41 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+17:59:41 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+17:59:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:42 INFO  : System reset is completed.
+17:59:45 INFO  : 'after 3000' command is executed.
+17:59:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:45 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+17:59:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+17:59:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:59:46 INFO  : 'con' command is executed.
+17:59:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:59:46 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:00:19 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+18:00:23 INFO  : Disconnected from the channel tcfchan#8.
+18:00:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:00:24 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+18:00:24 INFO  : 'jtag frequency' command is executed.
+18:00:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+18:00:25 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+18:00:25 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+18:00:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:00:25 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:25 INFO  : System reset is completed.
+18:00:28 INFO  : 'after 3000' command is executed.
+18:00:28 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:29 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+18:00:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+18:00:29 INFO  : Context for processor 'microblaze_0' is selected.
+18:00:29 INFO  : 'con' command is executed.
+18:00:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:00:29 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:00:56 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+18:01:00 INFO  : Disconnected from the channel tcfchan#9.
+18:01:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:01:00 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+18:01:00 INFO  : 'jtag frequency' command is executed.
+18:01:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+18:01:01 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+18:01:01 INFO  : Context for processor 'microblaze_0' is selected.
+18:01:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+18:01:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:01:01 INFO  : Context for processor 'microblaze_0' is selected.
+18:01:01 INFO  : System reset is completed.
+18:01:05 INFO  : 'after 3000' command is executed.
+18:01:05 INFO  : Context for processor 'microblaze_0' is selected.
+18:01:05 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+18:01:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+18:01:05 INFO  : Context for processor 'microblaze_0' is selected.
+18:01:05 INFO  : 'con' command is executed.
+18:01:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:01:05 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:04:59 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+18:05:03 INFO  : Disconnected from the channel tcfchan#10.
+18:05:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:05:03 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+18:05:03 INFO  : 'jtag frequency' command is executed.
+18:05:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+18:05:04 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+18:05:04 INFO  : Context for processor 'microblaze_0' is selected.
+18:05:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+18:05:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:05:04 INFO  : Context for processor 'microblaze_0' is selected.
+18:05:04 INFO  : System reset is completed.
+18:05:07 INFO  : 'after 3000' command is executed.
+18:05:07 INFO  : Context for processor 'microblaze_0' is selected.
+18:05:08 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+18:05:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+18:05:08 INFO  : Context for processor 'microblaze_0' is selected.
+18:05:08 INFO  : 'con' command is executed.
+18:05:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:05:08 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:06:11 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+18:06:15 INFO  : Disconnected from the channel tcfchan#11.
+18:06:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:06:15 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+18:06:15 INFO  : 'jtag frequency' command is executed.
+18:06:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+18:06:16 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+18:06:16 INFO  : Context for processor 'microblaze_0' is selected.
+18:06:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+18:06:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:06:16 INFO  : Context for processor 'microblaze_0' is selected.
+18:06:16 INFO  : System reset is completed.
+18:06:19 INFO  : 'after 3000' command is executed.
+18:06:20 INFO  : Context for processor 'microblaze_0' is selected.
+18:06:20 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+18:06:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+18:06:20 INFO  : Context for processor 'microblaze_0' is selected.
+18:06:20 INFO  : 'con' command is executed.
+18:06:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:06:20 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:07:08 INFO  : Checking for BSP changes to sync application flags for project 'ADC_interface_low_HZ_sysetem'...
+18:07:12 INFO  : Disconnected from the channel tcfchan#12.
+18:07:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:07:12 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328AB7F86A' is selected.
+18:07:12 INFO  : 'jtag frequency' command is executed.
+18:07:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}' command is executed.
+18:07:13 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit"
+18:07:13 INFO  : Context for processor 'microblaze_0' is selected.
+18:07:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa'.
+18:07:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:07:14 INFO  : Context for processor 'microblaze_0' is selected.
+18:07:14 INFO  : System reset is completed.
+18:07:17 INFO  : 'after 3000' command is executed.
+18:07:17 INFO  : Context for processor 'microblaze_0' is selected.
+18:07:17 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf' is downloaded to processor 'microblaze_0'.
+18:07:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328AB7F86A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328AB7F86A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ/export/ADC_interface_low_HZ/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.vitus/ADC_interface_low_HZ_sysetem/Debug/ADC_interface_low_HZ_sysetem.elf
+----------------End of Script----------------
+
+18:07:17 INFO  : Context for processor 'microblaze_0' is selected.
+18:07:17 INFO  : 'con' command is executed.
+18:07:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:07:17 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\ADC_interface_low_HZ_sysetem_system\_ide\scripts\systemdebugger_adc_interface_low_hz_sysetem_system_standalone.tcl'
+18:32:00 INFO  : Disconnected from the channel tcfchan#13.
+19:59:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ.vitus\temp_xsdb_launch_script.tcl
+19:59:07 INFO  : XSCT server has started successfully.
+19:59:07 INFO  : plnx-install-location is set to ''
+19:59:07 INFO  : Successfully done setting XSCT server connection channel  
+19:59:07 INFO  : Successfully done setting workspace for the tool. 
+19:59:08 INFO  : Platform repository initialization has completed.
+19:59:08 INFO  : Successfully done query RDI_DATADIR 
+19:59:08 INFO  : Registering command handlers for Vitis TCF services

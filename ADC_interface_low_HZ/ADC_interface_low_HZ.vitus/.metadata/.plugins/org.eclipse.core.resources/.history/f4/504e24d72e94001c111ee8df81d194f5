@@ -1,0 +1,71 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+int main(){
+	XGpio gpio;
+	u32 adc_data, adc_status, adc_temp;
+	double adc_frequency;
+
+	XGpio_Initialize(&gpio, 0);
+	XGpio_SetDataDirection(&gpio, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&gpio, 1, 0xFFFFFFFF);
+
+	adc_temp = XGpio_DiscreteRead(&gpio, 2);
+	while (1){
+
+		adc_data = XGpio_DiscreteRead(&gpio, 1);
+		adc_status = XGpio_DiscreteRead(&gpio, 2);
+
+		if(adc_status != adc_temp){
+			adc_temp = adc_status;
+
+			adc_frequency = 1.0/(adc_data/200000000.0);
+			u32 adc_frequency_transmit = (u32) (adc_frequency * 1000);
+
+			u32 temp = adc_frequency_transmit;
+			int digits = 0; // The number of digits in the number
+			while(temp > 0){
+				digits++;
+				temp /= 10;
+			}
+
+			char frequency_temp[10];
+			char frequency[10] = {' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
+			char frequency_d[11];
+			frequency_d[0] = 0;
+
+			int frequency_index = 0;
+			while (adc_frequency_transmit > 0){
+				frequency_temp[++frequency_index] = adc_frequency_transmit % 10 + '0';
+				adc_frequency_transmit /= 10;
+			}
+
+			for(int i = 0; i < frequency_index; i++){
+				frequency[i] = frequency_temp[frequency_index - i];
+			}
+
+			if(frequency[0] != frequency_d[0]){
+				frequency_d[0] = frequency[0];
+			}else{
+				frequency_d[0] = '0';
+			}
+
+			//xil_printf("\nADC data: %08x", adc_data);
+			//xil_printf("\tADC status: %08x", adc_status);
+			xil_printf("\tADC measurement: %10u", adc_data);
+			xil_printf("\tADC frequency: "); //adc_frequency_transmit);
+			xil_printf(frequency);
+			xil_printf("\t");
+			xil_printf(frequency_d);
+
+			xil_printf("\r");
+		}
+
+	}
+}

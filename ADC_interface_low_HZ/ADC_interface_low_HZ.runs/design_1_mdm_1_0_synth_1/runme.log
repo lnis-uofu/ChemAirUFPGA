@@ -1,0 +1,309 @@
+
+*** Running vivado
+    with args -log design_1_mdm_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mdm_1_0.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_mdm_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1246.953 ; gain = 89.168
+Command: synth_design -top design_1_mdm_1_0 -part xc7a15tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Device 21-403] Loading part xc7a15tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21040
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:01:50 . Memory (MB): peak = 2571.973 ; gain = 390.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_mdm_1_0' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/synth/design_1_mdm_1_0.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_DEVICE bound to: xc7a15t - type: string 
+	Parameter C_REVISION bound to: (null) - type: string 
+	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_BSCANID bound to: 76547328 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 2 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TRACE_CLK_FREQ_HZ bound to: 200000000 - type: integer 
+	Parameter C_TRACE_CLK_OUT_PHASE bound to: 90 - type: integer 
+	Parameter C_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_TRACE_ID bound to: 110 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_THREAD_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_ADDR_SIZE bound to: 32 - type: integer 
+	Parameter C_DATA_SIZE bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'MDM' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:12674' bound to instance 'U0' of component 'MDM' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/synth/design_1_mdm_1_0.vhd:1657]
+INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:14358]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_BSCANE2' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:324' bound to instance 'BSCAN_I' of component 'MB_BSCANE2' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:15976]
+INFO: [Synth 8-638] synthesizing module 'MB_BSCANE2' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:348]
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 2 - type: integer 
+INFO: [Synth 8-113] binding component instance 'BSCANE2_I' to cell 'BSCANE2' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:358]
+INFO: [Synth 8-256] done synthesizing module 'MB_BSCANE2' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:348]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-3491] module 'MB_LUT1' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:1527' bound to instance 'LUT1_I' of component 'MB_LUT1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:15994]
+INFO: [Synth 8-638] synthesizing module 'MB_LUT1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:1541]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'LUT1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:1563]
+INFO: [Synth 8-256] done synthesizing module 'MB_LUT1' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:1541]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_BUFGCE_1' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:426' bound to instance 'BUFG_DRCK' of component 'MB_BUFGCE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:16505]
+INFO: [Synth 8-638] synthesizing module 'MB_BUFGCE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:440]
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'BUFGCE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:450]
+INFO: [Synth 8-256] done synthesizing module 'MB_BUFGCE_1' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:440]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_EN_WIDTH bound to: 1 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_REG_NUM_CE bound to: 4 - type: integer 
+	Parameter C_REG_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_ACLK_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_UART_WIDTH bound to: 8 - type: integer 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_TRACE_ASYNC_RESET bound to: 0 - type: integer 
+	Parameter C_TRACE_CLK_FREQ_HZ bound to: 200000000 - type: integer 
+	Parameter C_TRACE_CLK_OUT_PHASE bound to: 90 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_TRACE_ID bound to: 110 - type: integer 
+	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'MDM_Core' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:5792' bound to instance 'MDM_Core_I1' of component 'MDM_Core' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:16607]
+INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:7029]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:300' bound to instance 'config_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:7712]
+INFO: [Synth 8-638] synthesizing module 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:309]
+INFO: [Synth 8-256] done synthesizing module 'xil_scan_reset_control' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:309]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:300' bound to instance 'sel_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:7722]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:300' bound to instance 'shift_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:7732]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_USE_BSCAN bound to: 0 - type: integer 
+	Parameter C_MB_DBG_PORTS bound to: 1 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_DBG_REG_ACCESS bound to: 0 - type: integer 
+	Parameter C_DBG_MEM_ACCESS bound to: 0 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_CROSS_TRIGGER bound to: 0 - type: integer 
+	Parameter C_EXT_TRIG_RESET_VALUE bound to: 20'b11110001001000110100 
+	Parameter C_USE_UART bound to: 0 - type: integer 
+	Parameter C_UART_WIDTH bound to: 8 - type: integer 
+	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
+	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
+	Parameter C_EN_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'JTAG_CONTROL' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3075' bound to instance 'JTAG_CONTROL_I' of component 'JTAG_CONTROL' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:10423]
+INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3348]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:300' bound to instance 'config_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3657]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:300' bound to instance 'sel_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3665]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_FDC_1' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:740' bound to instance 'FDC_I' of component 'MB_FDC_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3722]
+INFO: [Synth 8-638] synthesizing module 'MB_FDC_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:756]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDC_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:777]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDC_1' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:756]
+	Parameter C_TARGET bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'MB_FDRE_1' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:799' bound to instance 'SYNC_FDRE' of component 'MB_FDRE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3732]
+INFO: [Synth 8-638] synthesizing module 'MB_FDRE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:816]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDRE_1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:839]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDRE_1' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:816]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0000000101100111 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:862' bound to instance 'SRL16E_1' of component 'MB_SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3926]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter INIT bound to: 16'b0000000101100111 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:890]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0100001010000111 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:862' bound to instance 'SRL16E_2' of component 'MB_SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3944]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized1' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter INIT bound to: 16'b0100001010000111 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:890]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized1' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0100010001000011 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:862' bound to instance 'SRL16E_ID_1' of component 'MB_SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:4015]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized3' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter INIT bound to: 16'b0100010001000011 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:890]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized3' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_STATIC bound to: 1 - type: bool 
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter INIT bound to: 16'b0101100001001101 
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:862' bound to instance 'SRL16E_ID_2' of component 'MB_SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:4033]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized5' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+	Parameter INIT bound to: 16'b0101100001001101 
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:890]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized5' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:886]
+INFO: [Synth 8-256] done synthesizing module 'JTAG_CONTROL' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:3348]
+INFO: [Synth 8-256] done synthesizing module 'MDM_Core' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:7029]
+INFO: [Synth 8-256] done synthesizing module 'MDM' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:14358]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mdm_1_0' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_mdm_1_0/synth/design_1_mdm_1_0.vhd:74]
+WARNING: [Synth 8-6014] Unused sequential element set_Ext_BRK_reg was removed.  [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd:4121]
+WARNING: [Synth 8-7129] Port Config_Reset in module MB_SRL16E__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Config_Reset in module MB_SRL16E__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Config_Reset in module MB_SRL16E__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Config_Reset in module MB_SRL16E is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Clk in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rst in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Clear_Ext_BRK in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Read_RX_FIFO in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Reset_RX_FIFO in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Write_TX_FIFO in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Reset_TX_FIFO in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[2] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[3] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[4] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[5] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[6] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TX_Data[7] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DbgReg_DRCK in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DbgReg_UPDATE in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DbgReg_Access_Lock in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DbgReg_Force_Lock in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DbgReg_Unlocked in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_Transaction in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_Instr_Overrun in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_Data_Overrun in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RESET in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_ACLK in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_ARESETn in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_rd_idle in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_rd_resp[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_rd_resp[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_wr_idle in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_wr_resp[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_wr_resp[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[31] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[30] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[29] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[28] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[27] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[26] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[25] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[24] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[23] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[22] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[21] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[20] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[19] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[18] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[17] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[16] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[15] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[14] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[13] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[12] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[11] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[10] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[9] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[8] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[7] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[6] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[5] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[4] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[3] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[2] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_out[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_exists in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_data_empty in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_dwr_done in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_dwr_resp[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Master_dwr_resp[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[2] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[3] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[4] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[5] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[6] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_0[7] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[2] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[3] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[4] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[5] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[6] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_1[7] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[2] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[3] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[4] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[5] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[6] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_2[7] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_3[0] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_3[1] in module JTAG_CONTROL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Dbg_Trig_In_3[2] in module JTAG_CONTROL is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:02:24 . Memory (MB): peak = 2571.973 ; gain = 390.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:02:29 . Memory (MB): peak = 2571.973 ; gain = 390.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:02:29 . Memory (MB): peak = 2571.973 ; gain = 390.773
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.351 . Memory (MB): peak = 2571.973 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds

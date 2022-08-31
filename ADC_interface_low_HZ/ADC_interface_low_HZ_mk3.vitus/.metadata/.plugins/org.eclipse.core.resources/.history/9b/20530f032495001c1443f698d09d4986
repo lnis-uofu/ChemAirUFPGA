@@ -1,0 +1,128 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+int main(){
+	XGpio gpio, ADC_1, ADC_2, ADC_3, ADC_4, ADC_5, ADC_6, ADC_7, ADC_8, ADC_9, ADC_10, ADC_11, variable_timer;
+	u32 adc_data, adc_status, adc_temp;
+	double adc_frequency;
+
+	XGpio_Initialize(&ADC_0, 0);
+	XGpio_SetDataDirection(&ADC_0, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_0, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_1, 0);
+	XGpio_SetDataDirection(&ADC_1, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_1, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_2, 0);
+	XGpio_SetDataDirection(&ADC_2, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_2, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_3, 0);
+	XGpio_SetDataDirection(&ADC_3, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_3, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_4, 0);
+	XGpio_SetDataDirection(&ADC_4, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_4, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_5, 0);
+	XGpio_SetDataDirection(&ADC_5, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_5, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_6, 0);
+	XGpio_SetDataDirection(&ADC_6, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_6, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_7, 0);
+	XGpio_SetDataDirection(&ADC_7, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_7, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_8, 0);
+	XGpio_SetDataDirection(&ADC_8, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_8, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_9, 0);
+	XGpio_SetDataDirection(&ADC_9, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_9, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_10, 0);
+	XGpio_SetDataDirection(&ADC_10, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_10, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&ADC_11, 0);
+	XGpio_SetDataDirection(&ADC_11, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_11, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&variable_timer, 0);
+	XGpio_SetDataDirection(&variable_timer, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&variable_timer, 1, 0xFFFFFFFF);
+
+	adc_temp = XGpio_DiscreteRead(&ADC_0, 2);
+	while (1){
+
+		// Read data from the GPIO
+		adc_data = XGpio_DiscreteRead(&ADC_0, 1);
+		adc_status = XGpio_DiscreteRead(&ADC_0, 2);
+
+		// If the status of the GPIO 2 changes report the output
+		if(adc_status != adc_temp){
+			adc_temp = adc_status;
+
+			// Calculate the ADC Frequency
+			adc_frequency = (200000000.0/adc_data);
+
+			// Convert the frequency into a format that can be transmitted
+			u32 adc_frequency_x = (u32) (adc_frequency * 1000);
+			u32 adc_temp = adc_frequency_x;
+
+			char adc_frequency_c[10];
+			char adc_frequency_cx[10];
+			char adc_frequency_t[11];
+
+			// Convert to a backwards char
+			int idx_temp = 0;
+			while(adc_temp > 0){
+				adc_frequency_c[idx_temp] = adc_temp % 10 + '0';
+				adc_temp /= 10;
+				idx_temp++;
+			}
+
+			// Zero fill
+			for(int i = idx_temp; i < 10; i++){
+				adc_frequency_c[i] = '0';
+			}
+
+			// Reverse the character order
+			for(int i = 0; i < 10; i++){
+				adc_frequency_cx[i] = adc_frequency_c[9 - i];
+			}
+
+			// Add a period
+			for(int i = 0; i < 7; i++){
+				adc_frequency_t[i] = adc_frequency_cx[i];
+			}
+			adc_frequency_t[7] = '.';
+			for(int i = 8; i < 11; i++){
+				adc_frequency_t[i] = adc_frequency_cx[i-1];
+			}
+
+
+			//xil_printf("\nADC data: %08x", adc_data);
+			//xil_printf("\tADC status: %08x", adc_status);
+			xil_printf("\nADC measurement: %10u", adc_data);
+			xil_printf("\tADC frequency: %10u (1/1000)Hz", adc_frequency_x); //adc_frequency_transmit);
+			xil_printf("\tADC frequency: \t");
+			xil_printf(adc_frequency_t);
+
+			xil_printf("\r");
+		}
+
+	}
+}

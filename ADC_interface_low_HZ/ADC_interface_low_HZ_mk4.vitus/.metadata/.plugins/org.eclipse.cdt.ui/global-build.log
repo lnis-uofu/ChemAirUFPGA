@@ -1,0 +1,27 @@
+Nothing to build in platform 'ADC_platform_mk4'
+
+12:03:09 **** Incremental Build of configuration Debug for project ADC_interface_low_HZ_mk4 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk4.vitus/ADC_platform_mk4/export/ADC_platform_mk4/sw/ADC_platform_mk4/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'transmit_data':
+../src/main.c:94:8: warning: unused variable 'adc_frequency_short' [-Wunused-variable]
+   94 |    u16 adc_frequency_short = (u16) adc_frequency;
+      |        ^~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: ADC_interface_low_HZ_mk4.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk4.vitus/ADC_platform_mk4/export/ADC_platform_mk4/sw/ADC_platform_mk4/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ADC_interface_low_HZ_mk4.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ADC_interface_low_HZ_mk4.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ADC_interface_low_HZ_mk4.elf  |tee "ADC_interface_low_HZ_mk4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15416	    532	   3444	  19392	   4bc0	ADC_interface_low_HZ_mk4.elf
+'Finished building: ADC_interface_low_HZ_mk4.elf.size'
+' '
+12:03:10 **** Incremental Build of configuration Debug for project ADC_interface_low_HZ_mk4_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,38 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+int main(){
+	XGpio gpio;
+	u32 adc_data, adc_status, adc_temp;
+	double adc_frequency;
+
+	XGpio_Initialize(&gpio, 0);
+	XGpio_SetDataDirection(&gpio, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&gpio, 1, 0xFFFFFFFF);
+
+	adc_temp = XGpio_DiscreteRead(&gpio, 2);
+	while (1){
+
+		adc_data = XGpio_DiscreteRead(&gpio, 1);
+		adc_status = XGpio_DiscreteRead(&gpio, 2);
+
+		if(adc_status != adc_temp){
+			adc_temp = adc_status;
+
+			adc_frequency = 1.0/(adc_data/200000000);
+
+			xil_printf("\nADC data: %08x", adc_data);
+			xil_printf("\tADC status: %08x", adc_status);
+			xil_printf("\tADC measurement: %15u", adc_data);
+			xil_printf("\tADC frequency: %15f Hz", adc_frequency);
+			xil_printf("\r");
+		}
+
+	}
+}

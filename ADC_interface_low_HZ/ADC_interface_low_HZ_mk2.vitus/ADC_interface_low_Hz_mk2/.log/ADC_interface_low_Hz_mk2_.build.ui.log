@@ -1,0 +1,174 @@
+2022-02-23T20:10:22.906234200255-20:10:22 **** Build of project ADC_interface_low_Hz_mk2 ****
+000-buildplatform.bat 50972 ADC_interface_low_Hz_mk2  
+000-XSDB Server Channel: tcfchan#1
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+000-make --no-print-directory seq_libs
+000-
+000-'Finished building libraries sequentially.'
+000-
+000-make -j 6 --no-print-directory par_libs
+000-
+000-"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+000-
+000-make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+000--Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+000--Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/gpio_v4_8/src"
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+000--Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+000-
+000-make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/spi_v4_8/src"
+000-
+000-make -C microblaze_0/libsrc/spi_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+000-_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+000-Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+000-
+000-"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+000-
+000-make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+000-xtra -fno-tree-loop-distribute-patterns"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+000-xtra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/gpio_v4_8/src"
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+000-xtra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+000-
+000-make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+000-FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+000-extra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/spi_v4_8/src"
+000-
+000-make -C microblaze_0/libsrc/spi_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+000-AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+000-tra -fno-tree-loop-distribute-patterns"
+000-
+000-"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra -fno-tree-loop-distribute-patterns"
+000-
+000-In file included from xio.c:36:
+000/ADC_interface_low_Hz_mk269-1-1fatal error: xil_types.h: No such file or directory2-xio.h:69:10: fatal error: xil_types.h: No such file or directory
+000-   69 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from xbram_g.c:17:
+000/ADC_interface_low_Hz_mk2112-1-1fatal error: xil_types.h: No such file or directory2-xbram.h:112:10: fatal error: xil_types.h: No such file or directory
+000-  112 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from xgpio_g.c:17:
+000/ADC_interface_low_Hz_mk2112-1-1fatal error: xil_types.h: No such file or directory2-xgpio.h:112:10: fatal error: xil_types.h: No such file or directory
+000-  112 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xio.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xio.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xgpio_g.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xgpio_g.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xbram_g.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xbram_g.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/cpu_v2_14/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/cpu_v2_14/src/make.libs] Error 2
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** Waiting for unfinished jobs....2-make[1]: *** Waiting for unfinished jobs....
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/bram_v4_7/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/bram_v4_7/src/make.libs] Error 2
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/gpio_v4_8/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/gpio_v4_8/src/make.libs] Error 2
+000-In file included from xspi.c:89:
+000/ADC_interface_low_Hz_mk2299-1-1fatal error: xil_types.h: No such file or directory2-xspi.h:299:10: fatal error: xil_types.h: No such file or directory
+000-  299 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xspi.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xspi.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** Waiting for unfinished jobs....2-make[2]: *** Waiting for unfinished jobs....
+000/ADC_interface_low_Hz_mk2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/intc_v3_13/src/xintc_intr.c72-1-1fatal error: xil_types.h: No such file or directory2-xintc_intr.c:72:10: fatal error: xil_types.h: No such file or directory
+000-   72 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xintc_intr.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xintc_intr.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** Waiting for unfinished jobs....2-make[2]: *** Waiting for unfinished jobs....
+000/ADC_interface_low_Hz_mk2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/uartlite_v3_6/src/xuartlite_selftest.c35-1-1fatal error: xil_types.h: No such file or directory2-xuartlite_selftest.c:35:10: fatal error: xil_types.h: No such file or directory
+000-   35 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xuartlite_selftest.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xuartlite_selftest.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** Waiting for unfinished jobs....2-make[2]: *** Waiting for unfinished jobs....
+000-In file included from xspi_sinit.c:31:
+000/ADC_interface_low_Hz_mk2299-1-1fatal error: xil_types.h: No such file or directory2-xspi.h:299:10: fatal error: xil_types.h: No such file or directory
+000-  299 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/intc_v3_13/src/xintc_options.c36-1-1fatal error: xil_types.h: No such file or directory2-xintc_options.c:36:10: fatal error: xil_types.h: No such file or directory
+000-   36 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000-In file included from xintc_g.c:17:
+000/ADC_interface_low_Hz_mk2217-1-1fatal error: xil_types.h: No such file or directory2-xintc.h:217:10: fatal error: xil_types.h: No such file or directory
+000-  217 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xintc_options.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xintc_options.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xspi_sinit.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xspi_sinit.o] Error 1
+000-In file included from xuartlite_intr.c:34:
+000/ADC_interface_low_Hz_mk2138-1-1fatal error: xil_types.h: No such file or directory2-xuartlite.h:138:10: fatal error: xil_types.h: No such file or directory
+000-  138 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/spi_v4_8/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/spi_v4_8/src/make.libs] Error 2
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xintc_g.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xintc_g.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xuartlite_intr.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xuartlite_intr.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/intc_v3_13/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/intc_v3_13/src/make.libs] Error 2
+000/ADC_interface_low_Hz_mk2/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/uartlite_v3_6/src/xuartlite_stats.c31-1-1fatal error: xil_types.h: No such file or directory2-xuartlite_stats.c:31:10: fatal error: xil_types.h: No such file or directory
+000-   31 | #include "xil_types.h"
+000-      |          ^~~~~~~~~~~~~
+000-compilation terminated.
+000/ADC_interface_low_Hz_mk20-1-1make[2]: *** [Makefile:29: ../../../lib/xuartlite_stats.o] Error 12-make[2]: *** [Makefile:29: ../../../lib/xuartlite_stats.o] Error 1
+000/ADC_interface_low_Hz_mk20-1-1make[1]: *** [Makefile:46: microblaze_0/libsrc/uartlite_v3_6/src/make.libs] Error 22-make[1]: *** [Makefile:46: microblaze_0/libsrc/uartlite_v3_6/src/make.libs] Error 2
+000/ADC_interface_low_Hz_mk20-1-1make: *** [Makefile:19: all] Error 22-make: *** [Makefile:19: all] Error 2
+000-Failed to build  the bsp sources for domain - standalone_domain
+000-Failed to generate the platform.
+000-Reason: Failed to build  the bsp sources for domain - standalone_domain
+000-    invoked from within
+000-"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active ADC_interface_low_Hz_mk2; platform generate }}}"
+000-    (procedure "::tcf::send_command" line 4)
+000-    invoked from within
+000-"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+000-    invoked from within
+000-"if { $iswindows == 1 } {    
+000-
+000-    set XSDB_PORT [lindex $argv 0]
+000-    set PLATFORM_NAME [lindex $argv 1]
+000-    set arglen [llength $argv]
+000-    set lastind..."
+000-    (file "C:/Xilinx/Vitis/2021.2\scripts\vitis\util\buildplatform.tcl" line 11)
+00255-
+20:10:25 Build Finished (took 2s.910ms)
+

@@ -1,0 +1,151 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+int main(){
+	xil_printf("\r\n\n\nADC interface low Hz initializing");
+
+
+
+
+
+	// Initialize AXI GPIO
+	XGpio ADC_0, ADC_1, ADC_2, ADC_3, ADC_4, ADC_5, ADC_6, ADC_7, ADC_8, ADC_9, ADC_10, ADC_11, variable_timer;
+
+	xil_printf("\r\n\nInitializing ADC[0]");
+	XGpio_Initialize(&ADC_0, 0);
+	XGpio_SetDataDirection(&ADC_0, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_0, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[1]");
+	XGpio_Initialize(&ADC_1, 0);
+	XGpio_SetDataDirection(&ADC_1, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_1, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[2]");
+	XGpio_Initialize(&ADC_2, 0);
+	XGpio_SetDataDirection(&ADC_2, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_2, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[3]");
+	XGpio_Initialize(&ADC_3, 0);
+	XGpio_SetDataDirection(&ADC_3, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_3, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[4]");
+	XGpio_Initialize(&ADC_4, 0);
+	XGpio_SetDataDirection(&ADC_4, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_4, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[5]");
+	XGpio_Initialize(&ADC_5, 0);
+	XGpio_SetDataDirection(&ADC_5, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_5, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[6]");
+	XGpio_Initialize(&ADC_6, 0);
+	XGpio_SetDataDirection(&ADC_6, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_6, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[7]");
+	XGpio_Initialize(&ADC_7, 0);
+	XGpio_SetDataDirection(&ADC_7, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_7, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[8]");
+	XGpio_Initialize(&ADC_8, 0);
+	XGpio_SetDataDirection(&ADC_8, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_8, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[9]");
+	XGpio_Initialize(&ADC_9, 0);
+	XGpio_SetDataDirection(&ADC_9, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_9, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[10]");
+	XGpio_Initialize(&ADC_10, 0);
+	XGpio_SetDataDirection(&ADC_10, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_10, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing ADC[11]");
+	XGpio_Initialize(&ADC_11, 0);
+	XGpio_SetDataDirection(&ADC_11, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&ADC_11, 1, 0xFFFFFFFF);
+
+	xil_printf("\r\nInitializing variable timer");
+	XGpio_Initialize(&variable_timer, 0);
+	XGpio_SetDataDirection(&variable_timer, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&variable_timer, 1, 0x00000000);
+
+	u32 data[11];
+	u32 status[11];
+
+	data[0]   = XGpio_DiscreteRead(&ADC_0, 1);
+	status[0] = XGpio_DiscreteRead(&ADC_0, 2);
+
+	data[1]   = XGpio_DiscreteRead(&ADC_1, 1);
+	status[1] = XGpio_DiscreteRead(&ADC_1, 2);
+
+	data[2]   = XGpio_DiscreteRead(&ADC_2, 1);
+	status[2] = XGpio_DiscreteRead(&ADC_2, 2);
+
+	data[3]   = XGpio_DiscreteRead(&ADC_3, 1);
+	status[3] = XGpio_DiscreteRead(&ADC_3, 2);
+
+	data[4]   = XGpio_DiscreteRead(&ADC_4, 1);
+	status[4] = XGpio_DiscreteRead(&ADC_4, 2);
+
+	data[5]   = XGpio_DiscreteRead(&ADC_5, 1);
+	status[5] = XGpio_DiscreteRead(&ADC_5, 2);
+
+	data[6]   = XGpio_DiscreteRead(&ADC_6, 1);
+	status[6] = XGpio_DiscreteRead(&ADC_6, 2);
+
+	data[7]   = XGpio_DiscreteRead(&ADC_7, 1);
+	status[7] = XGpio_DiscreteRead(&ADC_7, 2);
+
+	data[8]   = XGpio_DiscreteRead(&ADC_8, 1);
+	status[8] = XGpio_DiscreteRead(&ADC_8, 2);
+
+	data[9]   = XGpio_DiscreteRead(&ADC_9, 1);
+	status[9] = XGpio_DiscreteRead(&ADC_9, 2);
+
+	data[10]   = XGpio_DiscreteRead(&ADC_10, 1);
+	status[10] = XGpio_DiscreteRead(&ADC_10, 2);
+
+	data[11]   = XGpio_DiscreteRead(&ADC_11, 1);
+	status[11] = XGpio_DiscreteRead(&ADC_11, 2);
+
+	xil_printf("\r\n\n-------reading gpio data-------");
+	xil_printf("\r\n[-ADC-][---data---][--status--]");
+	for(int i = 0; i < 12; i++){
+		xil_printf("\r\nADC[%2i][%10u][%10u]", i, data[i], status[i]);
+	}
+
+	xil_printf("\r\n\n----initializing timer---------");
+
+	u32 timer_status, timer_period;
+	timer_period = 100000;
+
+	XGpio_DiscreteWrite(&variable_timer, 1, 100000);
+	timer_status = XGpio_DiscreteRead(&variable_timer, 2);
+
+	xil_printf("\r\ntimer status[%u]\tperiod[%u]", timer_status, timer_period);
+
+
+	u32 ADC_0_status = XGpio_DiscreteRead(&ADC_0, 2);
+	u32 nADC_0_status = ADC_0_status;
+	while (1){
+		ADC_0_status = XGpio_DiscreteRead(&ADC_0, 2);
+
+		if(nADC_0_status != ADC_0_status){
+			nADC_0_status = ADC_0_status;
+			xil_printf("\r\nADC_0 status changed");
+		}
+	}
+}

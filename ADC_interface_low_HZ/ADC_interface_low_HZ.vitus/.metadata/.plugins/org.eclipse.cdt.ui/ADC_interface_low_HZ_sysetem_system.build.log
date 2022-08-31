@@ -1,0 +1,6 @@
+18:07:09 **** Incremental Build of configuration Debug for project ADC_interface_low_HZ_sysetem_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+18:07:09 Build Finished (took 217ms)
+

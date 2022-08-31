@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Aug 14 19:36:38 2022
+# Process ID: 2304
+# Current directory: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_microblaze_0_0_synth_1
+# Command line: vivado.exe -log design_1_microblaze_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_microblaze_0_0.tcl
+# Log file: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_microblaze_0_0_synth_1/design_1_microblaze_0_0.vds
+# Journal file: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_microblaze_0_0_synth_1\vivado.jou
+# Running On: LAPTOP-TULRS7V0, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16857 MB
+#-----------------------------------------------------------
+source design_1_microblaze_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1245.434 ; gain = 87.566
+Command: synth_design -top design_1_microblaze_0_0 -part xc7a15tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Device 21-403] Loading part xc7a15tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18756
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:36 . Memory (MB): peak = 2054.684 ; gain = 0.000
+---------------------------------------------------------------------------------

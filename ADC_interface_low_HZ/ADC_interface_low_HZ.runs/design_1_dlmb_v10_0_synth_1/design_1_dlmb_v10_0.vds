@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Aug 14 19:36:38 2022
+# Process ID: 8408
+# Current directory: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log design_1_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dlmb_v10_0.tcl
+# Log file: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_dlmb_v10_0_synth_1/design_1_dlmb_v10_0.vds
+# Journal file: C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_dlmb_v10_0_synth_1\vivado.jou
+# Running On: LAPTOP-TULRS7V0, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16857 MB
+#-----------------------------------------------------------
+source design_1_dlmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1245.746 ; gain = 87.559
+Command: synth_design -top design_1_dlmb_v10_0 -part xc7a15tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t'
+INFO: [Device 21-403] Loading part xc7a15tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12644
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [C:/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:01:51 . Memory (MB): peak = 2564.793 ; gain = 390.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_v10_0' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/synth/design_1_dlmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at 'c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:92' bound to instance 'U0' of component 'lmb_v10' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/synth/design_1_dlmb_v10_0.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-3491] module 'FDS' declared at 'C:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27959' bound to instance 'POR_FF_I' of component 'FDS' [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:171]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [C:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27959]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [C:/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27959]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_v10_0' (0#1) [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/synth/design_1_dlmb_v10_0.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:02:09 . Memory (MB): peak = 2564.793 ; gain = 390.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:02:10 . Memory (MB): peak = 2564.793 ; gain = 390.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:02:10 . Memory (MB): peak = 2564.793 ; gain = 390.324
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2564.793 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_dlmb_v10_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/owenm/Programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ.runs/design_1_dlmb_v10_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2564.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.620 . Memory (MB): peak = 2564.793 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off

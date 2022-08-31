@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="final_rev_low_hz_system-bitFile" value="${project_loc:final_rev_low_hz}/_ide/bitstream/low_Hz_final.bit"/>
+	<item key="final_rev_low_hz_system-bmmFile" value="${project_loc:final_rev_low_hz}/_ide/bitstream/low_Hz_final.mmi"/>
+	<item key="final_rev_low_hz_system-target" value="Local"/>
+	<item key="final_rev_low_hz_system-device" value="Auto Detect"/>
+	<item key="final_rev_low_hz_system-partial_bit" value="false"/>
+	<item key="final_rev_low_hz_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="final_rev_low_hz_system"/>
+	<item key="final_rev_low_hz_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Cmod A7 - 15T 210328B560E1A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0&quot;}}]}"/>
+</section>

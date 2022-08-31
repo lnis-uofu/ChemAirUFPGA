@@ -1,0 +1,264 @@
+16:54:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+16:54:32 INFO  : Platform repository initialization has completed.
+16:54:32 INFO  : Registering command handlers for Vitis TCF services
+16:54:37 INFO  : XSCT server has started successfully.
+16:54:37 INFO  : Successfully done setting XSCT server connection channel  
+16:54:38 INFO  : plnx-install-location is set to ''
+16:54:38 INFO  : Successfully done setting workspace for the tool. 
+16:54:38 INFO  : Successfully done query RDI_DATADIR 
+16:55:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::copy_file: The system cannot find the path specified: "C:/Xilinx/Vitis/2021.2/data/embeddedsw\lib\bsp\standalone_v7_6/src\arm\ARMv8\64bit\platform\versal\armclang\translation_table.S", "C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\final_rev1\microblaze_0\standalone_microblaze_0\bsp\microblaze_0/libsrc/standalone_v7_6/src\arm\ARMv8\64bit\platform\versal\armclang\translation_table.S"
+
+16:55:35 INFO  : Result from executing command 'getProjects': final_rev1
+16:55:35 INFO  : Result from executing command 'getPlatforms': 
+16:55:35 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:55:36 INFO  : Platform 'final_rev1' is added to custom repositories.
+16:55:37 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:382)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885)
+	... 20 more
+16:55:37 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:382)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+16:55:37 ERROR : An unexpected exception occurred in the module 'reading platform'
+16:55:37 ERROR : An unexpected exception occurred in the module 'platform project logging'
+16:57:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+16:57:17 INFO  : Registering command handlers for Vitis TCF services
+16:57:17 INFO  : Platform repository initialization has completed.
+16:57:20 INFO  : XSCT server has started successfully.
+16:57:20 INFO  : Successfully done setting XSCT server connection channel  
+16:57:20 INFO  : plnx-install-location is set to ''
+16:57:20 INFO  : Successfully done setting workspace for the tool. 
+16:57:20 INFO  : Successfully done query RDI_DATADIR 
+16:57:52 INFO  : Result from executing command 'getProjects': final_rev1
+16:57:52 INFO  : Result from executing command 'getPlatforms': 
+16:58:09 INFO  : Result from executing command 'getProjects': final_rev1
+16:58:09 INFO  : Result from executing command 'getPlatforms': final_rev1|C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/final_rev1.xpfm
+16:59:13 INFO  : Checking for BSP changes to sync application flags for project 'ADC_low_Hz_final_rev1'...
+16:59:39 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit' is generated.
+17:00:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:00:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+17:00:33 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+17:00:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:00 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B560E1A' is selected.
+17:01:27 INFO  : 'jtag frequency' command is executed.
+17:01:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+17:01:55 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+17:01:55 INFO  : Context for processor 'microblaze_0' is selected.
+17:02:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa'.
+17:02:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:02:22 INFO  : Context for processor 'microblaze_0' is selected.
+17:02:49 INFO  : System reset is completed.
+17:02:52 INFO  : 'after 3000' command is executed.
+17:03:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:05:04 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf' is downloaded to processor 'microblaze_0'.
+17:05:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf
+----------------End of Script----------------
+
+17:06:24 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:18 INFO  : 'con' command is executed.
+17:07:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:07:18 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\ADC_low_Hz_final_rev1_system\_ide\scripts\systemdebugger_adc_low_hz_final_rev1_system_standalone.tcl'
+17:12:53 INFO  : Disconnected from the channel tcfchan#2.
+12:42:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+12:42:34 INFO  : Platform repository initialization has completed.
+12:42:34 INFO  : Registering command handlers for Vitis TCF services
+12:42:35 INFO  : XSCT server has started successfully.
+12:42:35 INFO  : Successfully done setting XSCT server connection channel  
+12:42:39 INFO  : plnx-install-location is set to ''
+12:42:39 INFO  : Successfully done setting workspace for the tool. 
+12:42:39 INFO  : Successfully done query RDI_DATADIR 
+12:45:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:46:09 ERROR : Could not retrieve Flash Part information. Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:28:12 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+13:28:18 INFO  : XSCT server has started successfully.
+13:28:18 INFO  : plnx-install-location is set to ''
+13:28:18 INFO  : Successfully done setting XSCT server connection channel  
+13:28:18 INFO  : Successfully done setting workspace for the tool. 
+13:28:19 INFO  : Platform repository initialization has completed.
+13:28:20 INFO  : Successfully done query RDI_DATADIR 
+13:28:20 INFO  : Registering command handlers for Vitis TCF services
+13:32:09 INFO  : Result from executing command 'getProjects': final_rev1
+13:32:09 INFO  : Result from executing command 'getPlatforms': final_rev1|C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/final_rev1.xpfm
+13:32:09 INFO  : Checking for BSP changes to sync application flags for project 'ADC_low_Hz_final_rev1'...
+13:32:42 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit' is generated.
+13:32:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:32:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+13:33:05 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+13:33:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:05 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B560E1A' is selected.
+13:34:15 INFO  : 'jtag frequency' command is executed.
+13:34:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+13:34:25 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+13:34:36 INFO  : Context for processor 'microblaze_0' is selected.
+13:34:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa'.
+13:34:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:35:06 INFO  : Context for processor 'microblaze_0' is selected.
+13:35:06 INFO  : System reset is completed.
+13:35:09 INFO  : 'after 3000' command is executed.
+13:35:16 INFO  : Context for processor 'microblaze_0' is selected.
+13:36:07 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf' is downloaded to processor 'microblaze_0'.
+13:36:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf
+----------------End of Script----------------
+
+13:36:36 INFO  : Context for processor 'microblaze_0' is selected.
+13:45:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+13:45:45 INFO  : XSCT server has started successfully.
+13:45:45 INFO  : plnx-install-location is set to ''
+13:45:45 INFO  : Successfully done setting XSCT server connection channel  
+13:45:45 INFO  : Successfully done setting workspace for the tool. 
+13:45:46 INFO  : Platform repository initialization has completed.
+13:45:46 INFO  : Successfully done query RDI_DATADIR 
+13:45:47 INFO  : Registering command handlers for Vitis TCF services
+13:45:55 INFO  : Checking for BSP changes to sync application flags for project 'ADC_low_Hz_final_rev1'...
+15:19:02 INFO  : Bit file 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit' is generated.
+15:19:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+15:19:25 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+15:19:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:45 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B560E1A' is selected.
+15:19:55 INFO  : 'jtag frequency' command is executed.
+15:20:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}' command is executed.
+15:20:06 INFO  : Device configured successfully with "C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit"
+15:20:16 INFO  : Context for processor 'microblaze_0' is selected.
+15:20:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa'.
+15:20:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:20:26 INFO  : Context for processor 'microblaze_0' is selected.
+15:20:36 INFO  : System reset is completed.
+15:20:39 INFO  : 'after 3000' command is executed.
+15:20:56 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:37 INFO  : The application 'C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf' is downloaded to processor 'microblaze_0'.
+15:21:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560E1A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560E1A-0362e093-0"}
+fpga -file C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/final_rev1/export/final_rev1/hw/final_rev1.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_final_mk1.vitus/ADC_low_Hz_final_rev1/Debug/ADC_low_Hz_final_rev1.elf
+----------------End of Script----------------
+
+15:22:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:22:16 INFO  : 'con' command is executed.
+15:22:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:22:16 INFO  : Launch script is exported to file 'C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\ADC_low_Hz_final_rev1_system\_ide\scripts\systemdebugger_adc_low_hz_final_rev1_system_standalone.tcl'
+15:24:30 INFO  : Checking for BSP changes to sync application flags for project 'ADC_low_Hz_final_rev1'...
+16:01:25 INFO  : Disconnected from the channel tcfchan#1.
+16:33:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+16:33:51 INFO  : XSCT server has started successfully.
+16:33:51 INFO  : plnx-install-location is set to ''
+16:33:51 INFO  : Successfully done setting XSCT server connection channel  
+16:33:51 INFO  : Successfully done setting workspace for the tool. 
+16:33:52 INFO  : Platform repository initialization has completed.
+16:33:52 INFO  : Successfully done query RDI_DATADIR 
+16:33:52 INFO  : Registering command handlers for Vitis TCF services
+15:40:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+15:40:09 INFO  : Platform repository initialization has completed.
+15:40:09 INFO  : Registering command handlers for Vitis TCF services
+15:40:09 INFO  : XSCT server has started successfully.
+15:40:13 INFO  : plnx-install-location is set to ''
+15:40:13 INFO  : Successfully done setting XSCT server connection channel  
+15:40:13 INFO  : Successfully done query RDI_DATADIR 
+15:40:13 INFO  : Successfully done setting workspace for the tool. 
+14:49:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+14:49:14 INFO  : XSCT server has started successfully.
+14:49:14 INFO  : plnx-install-location is set to ''
+14:49:14 INFO  : Successfully done setting XSCT server connection channel  
+14:49:14 INFO  : Successfully done setting workspace for the tool. 
+14:49:15 INFO  : Platform repository initialization has completed.
+14:49:15 INFO  : Successfully done query RDI_DATADIR 
+14:49:16 INFO  : Registering command handlers for Vitis TCF services
+13:06:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+13:06:57 INFO  : XSCT server has started successfully.
+13:06:57 INFO  : plnx-install-location is set to ''
+13:06:57 INFO  : Successfully done setting XSCT server connection channel  
+13:06:57 INFO  : Successfully done setting workspace for the tool. 
+13:06:58 INFO  : Platform repository initialization has completed.
+13:06:58 INFO  : Successfully done query RDI_DATADIR 
+13:06:59 INFO  : Registering command handlers for Vitis TCF services
+14:21:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\OneDrive\Documents\programming\Verilog\ADC_interface_low_HZ\ADC_interface_low_HZ_final_mk1.vitus\temp_xsdb_launch_script.tcl
+14:21:56 INFO  : XSCT server has started successfully.
+14:21:56 INFO  : plnx-install-location is set to ''
+14:21:56 INFO  : Successfully done setting XSCT server connection channel  
+14:21:56 INFO  : Successfully done setting workspace for the tool. 
+14:21:57 INFO  : Platform repository initialization has completed.
+14:21:57 INFO  : Successfully done query RDI_DATADIR 
+14:21:57 INFO  : Registering command handlers for Vitis TCF services

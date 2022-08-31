@@ -1,0 +1,1066 @@
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened new HwDB with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-02-23.20:29:26::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work"
+		}]
+}
+TRACE::2022-02-23.20:29:26::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-02-23.20:29:26::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-02-23.20:29:26::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work"
+		}]
+}
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:26::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:26::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-23.20:29:26::SCWMssOS::No sw design opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::mss does not exists at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::Creating sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::Adding the swdes entry, created swdb C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::Writing mss at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:26::SCWMssOS::Completed writing the mss file at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-23.20:29:26::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-23.20:29:26::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-02-23.20:29:26::SCWMssOS::Completed writing the mss file at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-23.20:29:26::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-02-23.20:29:30::SCWMssOS::Writing the mss file completed C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-02-23.20:29:30::SCWPlatform::Started generating the artifacts platform ADC_pls_work
+TRACE::2022-02-23.20:29:30::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-23.20:29:30::SCWPlatform::Started generating the artifacts for system configuration ADC_pls_work
+LOG::2022-02-23.20:29:30::SCWSystem::Checking the domain standalone_domain
+LOG::2022-02-23.20:29:30::SCWSystem::Not a boot domain 
+LOG::2022-02-23.20:29:30::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-02-23.20:29:30::SCWDomain::Generating domain artifcats
+TRACE::2022-02-23.20:29:30::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-23.20:29:30::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writing the mss file at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-23.20:29:30::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-23.20:29:30::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-23.20:29:30::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-02-23.20:29:30::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-02-23.20:29:30::SCWMssOS::Copying to export directory.
+TRACE::2022-02-23.20:29:30::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-23.20:29:30::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-23.20:29:30::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-02-23.20:29:30::SCWSystem::Completed Processing the sysconfig ADC_pls_work
+LOG::2022-02-23.20:29:30::SCWPlatform::Completed generating the artifacts for system configuration ADC_pls_work
+TRACE::2022-02-23.20:29:30::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-23.20:29:30::SCWSystem::Writing the bif file for system config ADC_pls_work
+TRACE::2022-02-23.20:29:30::SCWSystem::dir created 
+TRACE::2022-02-23.20:29:30::SCWSystem::Writing the bif 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Completed generating the platform
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-23.20:29:30::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-02-23.20:29:30::SCWPlatform::Clearing the existing platform
+TRACE::2022-02-23.20:29:30::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-02-23.20:29:30::SCWMssOS::Removing the swdes entry for  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWSystem::Clearing the domains completed.
+TRACE::2022-02-23.20:29:30::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform location is C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Removing the HwDB with name C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWReader::Active system found as  ADC_pls_work
+TRACE::2022-02-23.20:29:30::SCWReader::Handling sysconfig ADC_pls_work
+TRACE::2022-02-23.20:29:30::SCWDomain::checking for install qemu data   : 
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-02-23.20:29:30::SCWMssOS::No sw design opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::mss exists loading the mss file  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Opened the sw design from mss  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Adding the swdes entry C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-02-23.20:29:30::SCWMssOS::updating the scw layer about changes
+TRACE::2022-02-23.20:29:30::SCWMssOS::Opened the sw design.  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:30::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:30::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-02-23.20:29:30::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:30::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:30::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:30::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:30::SCWReader::No isolation master present  
+LOG::2022-02-23.20:29:45::SCWPlatform::Started generating the artifacts platform ADC_pls_work
+TRACE::2022-02-23.20:29:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-02-23.20:29:45::SCWPlatform::Started generating the artifacts for system configuration ADC_pls_work
+LOG::2022-02-23.20:29:45::SCWSystem::Checking the domain standalone_domain
+LOG::2022-02-23.20:29:45::SCWSystem::Not a boot domain 
+LOG::2022-02-23.20:29:45::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-02-23.20:29:45::SCWDomain::Generating domain artifcats
+TRACE::2022-02-23.20:29:45::SCWMssOS::Generating standalone artifcats
+TRACE::2022-02-23.20:29:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-02-23.20:29:45::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:45::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:45::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:45::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:45::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:45::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:45::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:45::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:45::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:45::SCWMssOS::Completed writing the mss file at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp
+TRACE::2022-02-23.20:29:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-02-23.20:29:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-02-23.20:29:45::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-02-23.20:29:45::SCWMssOS::doing bsp build ... 
+TRACE::2022-02-23.20:29:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-02-23.20:29:45::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-23.20:29:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-02-23.20:29:46::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-23.20:29:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-02-23.20:29:46::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_8/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-02-23.20:29:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-02-23.20:29:46::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-23.20:29:46::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-02-23.20:29:46::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_8/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-02-23.20:29:46::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-02-23.20:29:46::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-02-23.20:29:46::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-02-23.20:29:46::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-02-23.20:29:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-02-23.20:29:46::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-23.20:29:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-02-23.20:29:46::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-23.20:29:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-02-23.20:29:46::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_8/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-02-23.20:29:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-02-23.20:29:46::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-02-23.20:29:46::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-02-23.20:29:46::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_8/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2022-02-23.20:29:46::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2022-02-23.20:29:46::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-02-23.20:29:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-02-23.20:29:46::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-02-23.20:29:46::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:47::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-02-23.20:29:47::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-02-23.20:29:47::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-02-23.20:29:47::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-02-23.20:29:50::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-02-23.20:29:50::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-02-23.20:29:50::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-02-23.20:29:50::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-02-23.20:29:50::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2022-02-23.20:29:50::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/xspi_g.o microblaze_0/lib/microblaze_flush
+TRACE::2022-02-23.20:29:50::SCWMssOS::_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xspi_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/
+TRACE::2022-02-23.20:29:50::SCWMssOS::lib/xspi_selftest.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/microbl
+TRACE::2022-02-23.20:29:50::SCWMssOS::aze_exception_handler.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_d
+TRACE::2022-02-23.20:29:50::SCWMssOS::cache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrup
+TRACE::2022-02-23.20:29:50::SCWMssOS::t_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib
+TRACE::2022-02-23.20:29:50::SCWMssOS::/xspi_stats.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommo
+TRACE::2022-02-23.20:29:50::SCWMssOS::n.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o m
+TRACE::2022-02-23.20:29:50::SCWMssOS::icroblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcach
+TRACE::2022-02-23.20:29:50::SCWMssOS::e_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_
+TRACE::2022-02-23.20:29:50::SCWMssOS::handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o micr
+TRACE::2022-02-23.20:29:50::SCWMssOS::oblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib
+TRACE::2022-02-23.20:29:50::SCWMssOS::/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o mic
+TRACE::2022-02-23.20:29:50::SCWMssOS::roblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_
+TRACE::2022-02-23.20:29:50::SCWMssOS::invalidate_icache.o microblaze_0/lib/xspi_options.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xi
+TRACE::2022-02-23.20:29:50::SCWMssOS::ntc_options.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xint
+TRACE::2022-02-23.20:29:50::SCWMssOS::c_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microb
+TRACE::2022-02-23.20:29:50::SCWMssOS::laze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0
+TRACE::2022-02-23.20:29:50::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.
+TRACE::2022-02-23.20:29:50::SCWMssOS::o microblaze_0/lib/xspi.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit
+TRACE::2022-02-23.20:29:50::SCWMssOS::.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2022-02-23.20:29:50::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-02-23.20:29:51::SCWMssOS::Copying to export directory.
+TRACE::2022-02-23.20:29:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-02-23.20:29:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-02-23.20:29:51::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-02-23.20:29:51::SCWSystem::Completed Processing the sysconfig ADC_pls_work
+LOG::2022-02-23.20:29:51::SCWPlatform::Completed generating the artifacts for system configuration ADC_pls_work
+TRACE::2022-02-23.20:29:51::SCWPlatform::Started preparing the platform 
+TRACE::2022-02-23.20:29:51::SCWSystem::Writing the bif file for system config ADC_pls_work
+TRACE::2022-02-23.20:29:51::SCWSystem::dir created 
+TRACE::2022-02-23.20:29:51::SCWSystem::Writing the bif 
+TRACE::2022-02-23.20:29:51::SCWPlatform::Started writing the spfm file 
+TRACE::2022-02-23.20:29:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-02-23.20:29:51::SCWPlatform::Completed generating the platform
+TRACE::2022-02-23.20:29:51::SCWMssOS::Saving the mss changes C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-02-23.20:29:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-02-23.20:29:51::SCWMssOS::Commit changes completed.
+TRACE::2022-02-23.20:29:51::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:51::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:51::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:51::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:51::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:51::SCWWriter::formatted JSON is {
+	"platformName":	"ADC_pls_work",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ADC_pls_work",
+	"platHandOff":	"C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/design_1_wrapper_mk3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper_mk3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ADC_pls_work",
+	"systems":	[{
+			"systemName":	"ADC_pls_work",
+			"systemDesc":	"ADC_pls_work",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ADC_pls_work",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"406f64e03333d168727a7cc528a41858",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-02-23.20:29:51::SCWPlatform::updated the xpfm file.
+TRACE::2022-02-23.20:29:51::SCWPlatform::Trying to open the hw design at C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA given C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA absoulate path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform::DSA directory C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw
+TRACE::2022-02-23.20:29:51::SCWPlatform:: Platform Path C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/hw/design_1_wrapper_mk3.xsa
+TRACE::2022-02-23.20:29:51::SCWPlatform:: Unique name xilinx:cmod_a7-15t::0.0
+TRACE::2022-02-23.20:29:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-02-23.20:29:51::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-02-23.20:29:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-02-23.20:29:51::SCWMssOS::Checking the sw design at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-02-23.20:29:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-02-23.20:29:51::SCWMssOS::Sw design exists and opened at  C:/Users/owenm/OneDrive/Documents/programming/Verilog/ADC_interface_low_HZ/ADC_interface_low_HZ_mk3.vitus/ADC_pls_work/microblaze_0/standalone_domain/bsp/system.mss
