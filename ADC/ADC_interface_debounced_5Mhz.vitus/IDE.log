@@ -1,0 +1,14 @@
+15:47:22 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/IDE.log'.
+15:47:24 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debounced_5Mhz.vitus\temp_xsdb_launch_script.tcl
+15:47:24 INFO  : Registering command handlers for Vitis TCF services
+15:47:25 INFO  : Platform repository initialization has completed.
+15:47:27 INFO  : XSCT server has started successfully.
+15:47:29 INFO  : plnx-install-location is set to ''
+15:47:29 INFO  : Successfully done setting XSCT server connection channel  
+15:47:29 INFO  : Successfully done query RDI_DATADIR 
+15:47:29 INFO  : Successfully done setting workspace for the tool. 
+15:48:04 INFO  : Result from executing command 'getProjects': ADC_platform
+15:48:04 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+15:48:14 INFO  : Result from executing command 'getProjects': ADC_platform
+15:48:14 INFO  : Result from executing command 'getPlatforms': ADC_platform|C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/ADC_platform/export/ADC_platform/ADC_platform.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+15:53:40 INFO  : Checking for BSP changes to sync application flags for project 'ADC_program'...

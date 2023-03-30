@@ -1,0 +1,283 @@
+//AXI GPIO driver
+#include "xgpio.h"
+
+//send data over UART
+#include "xil_printf.h"
+
+//information about AXI peripherals
+#include "xparameters.h"
+
+// Declare functions
+void ADC_init(XGpio adc_gpio[], int s);
+void ADC_read();
+void transmit_data(int v);
+
+// Declare global variables
+u32 status[12];
+u32 data[12];
+u16 data_div[12] = {1,1,1,1,1,1,1,1,1,1,1,1};
+u64 period = 100000000;
+u32 timer_status, ntimer_status;
+u16 timer_offset = 12;
+u8  status_change[12];
+XGpio ADC[12], variable_timer;
+
+
+int main(){
+
+
+	// Initialize AXI GPIO
+	//xil_printf("\r\n\n---------Initializing ADC---------");
+	ADC_init(ADC, 12);
+
+	// Initialize variable timer
+	//xil_printf("\r\n\n---------Initializing timer ------");
+	XGpio_Initialize(&variable_timer, 12);
+	XGpio_SetDataDirection(&variable_timer, 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&variable_timer, 1, 0x00000000);
+	XGpio_DiscreteWrite(&variable_timer, 1, period);
+	//xil_printf("\r\n-----------Finished initializing timer");
+	timer_status = XGpio_DiscreteRead(&variable_timer, 2);
+	ntimer_status = timer_status;
+
+	// Main loop
+	//xil_printf("\r\n\n---------Starting main loop-------");
+	while(1){
+
+		// Read the GPIO ports
+		ADC_read();
+
+		// Transmit data if the timer has triggered
+		timer_status = XGpio_DiscreteRead(&variable_timer, 2);
+		if(ntimer_status != timer_status){
+			ntimer_status = timer_status;
+			transmit_data(-1);/////////////////////////////////////// 0
+
+			//for(int i = 0; i < 12; i++){
+
+			//}
+
+		}
+	}
+
+
+}
+
+// Initialize the ADCs
+void ADC_init(XGpio adc_gpio[], int s){
+	//for(int i = 0; i < s; i++){
+	//	xil_printf("\r\nInitializing ADC[%i]", i);     /////////////////////////////////////////////////////////////////////
+	//	XGpio_Initialize(&adc_gpio[i], i);
+	//	XGpio_SetDataDirection(&adc_gpio[i], 2, 0xFFFFFFFF);
+	//	XGpio_SetDataDirection(&adc_gpio[i], 1, 0xFFFFFFFF);
+	//}
+
+	//xil_printf("\r\nInitializing ADC[0]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[0], 0);
+	XGpio_SetDataDirection(&adc_gpio[0], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[0], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[1]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[1], 1);
+	XGpio_SetDataDirection(&adc_gpio[1], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[1], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[2]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[2], 4);
+	XGpio_SetDataDirection(&adc_gpio[2], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[2], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[3]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[3], 5);
+	XGpio_SetDataDirection(&adc_gpio[3], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[3], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[4]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[4], 6);
+	XGpio_SetDataDirection(&adc_gpio[4], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[4], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[5]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[5], 7);
+	XGpio_SetDataDirection(&adc_gpio[5], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[5], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[6]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[6], 8);
+	XGpio_SetDataDirection(&adc_gpio[6], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[6], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[7]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[7], 9);
+	XGpio_SetDataDirection(&adc_gpio[7], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[7], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[8]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[8], 10);
+	XGpio_SetDataDirection(&adc_gpio[8], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[8], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[9]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[9], 11);
+	XGpio_SetDataDirection(&adc_gpio[9], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[9], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[10]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[10], 2);
+	XGpio_SetDataDirection(&adc_gpio[10], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[10], 1, 0xFFFFFFFF);
+
+	//xil_printf("\r\nInitializing ADC[11]");     /////////////////////////////////////////////////////////////////////
+	XGpio_Initialize(&adc_gpio[11], 3);
+	XGpio_SetDataDirection(&adc_gpio[11], 2, 0xFFFFFFFF);
+	XGpio_SetDataDirection(&adc_gpio[11], 1, 0xFFFFFFFF);
+}
+
+// Read the ADC data
+void ADC_read(){
+	u32 temp_status[12];
+	for(int i = 0; i < 12; i++){
+		temp_status[i] = status[i];
+		status[i] = XGpio_DiscreteRead(&ADC[i], 2);
+
+
+
+		if(temp_status[i] != status[i]){
+			temp_status[i] = status[i];
+			status_change[i] = 1;
+
+			data[i] += XGpio_DiscreteRead(&ADC[i], 1);
+			data_div[i]++;
+		}
+	}
+}
+
+// Transmit data over uart
+void transmit_data(int v){
+
+	// Human readable transmissions (debugging)
+	if(v == 2){
+		xil_printf("\n\ntransmiting...");
+		u32 adc_frequency = (u32) ((10000000.0/data[0]) * 1000);
+		xil_printf("\r\n%u x10^-5 Hz", adc_frequency);
+	}
+	if(v == 1){
+		xil_printf("\r\n\nADC[#][ADC data][ADC status][ADC pulse][ADC Hz][ADC Hz]");
+		for(int i = 0; i < 12; i++){
+
+			// Calculate the ADC Frequency (x10,000)
+			u32 adc_frequency = (u32) ((10000000.0/data[i]) * 1000);
+
+			u16 adc_frequency_short;
+
+			if(adc_frequency > 0xFFFF){
+				adc_frequency_short = 0xFFFF;
+			}else{
+				adc_frequency_short = (u16) adc_frequency;
+			}
+
+
+			// Convert to a char list
+			char backwards_adc_frequency[5];
+			char temp_adc_frequency[5];
+			char final_adc_frequency[6];
+			int idx_temp = 0;
+			while((adc_frequency > 0) && (idx_temp < 5)){
+				backwards_adc_frequency[idx_temp++] = adc_frequency % 10 + '0';
+				adc_frequency /= 10;
+			}
+
+			// Zero fill
+			for(int i = idx_temp; i < 5; i++){
+				backwards_adc_frequency[i] = '0';
+			}
+
+			// Reverse the character order
+			for(int i = 0; i < 5; i++){
+				temp_adc_frequency[i] = backwards_adc_frequency[4 - i];
+			}
+
+			final_adc_frequency[0] = temp_adc_frequency[0];
+			final_adc_frequency[1] = '.';
+
+			for(int i = 2; i < 6; i++){
+				final_adc_frequency[i] = temp_adc_frequency[i - 1];
+			}
+
+
+			xil_printf("\r\nADC[%2i][%10u][%1u][%1u][", i, data[i], status[i], status_change[i]);
+			xil_printf(final_adc_frequency);
+			xil_printf("]");
+			xil_printf("][%u]",adc_frequency_short);
+			status_change[i] = 0;
+		}
+	}
+
+	if(v == -1){/////////////////////////////////////////////////////////////////////
+		xil_printf("OL");
+
+		for(int i = 0; i < 12; i++){
+			if(data_div != 0){
+				data[i] = data[i] / data_div[i];
+			}
+			data_div[i] = 1;
+		}
+
+		for(int i = 0; i < 12; i++){
+			outbyte((char)(((u32)data[i] & 0xFF000000) >> 24));
+			outbyte((char)(((u32)data[i] & 0x00FF0000) >> 16));
+			outbyte((char)(((u32)data[i] & 0x0000FF00) >>  8));
+			outbyte((char)( (u32)data[i] & 0x000000FF));
+		}
+
+		for(int i = 0; i <12; i++){
+			data[i] = 0;
+		}
+
+	}
+
+	// Regular transmissions
+	if(v == 0){
+
+
+		char transmission_packet [27];
+		transmission_packet[0] = 'O'; // The start bit for the transmission
+		transmission_packet[1] = 'L';
+
+		u8 parity;
+
+		for(int i = 0; i < 12; i++){
+
+			// Calculate the ADC Frequency (x10,000)
+			u32 adc_frequency_initial = (u32) ((10000000.0/data[i]) * 1000);
+			u16 adc_frequency;
+
+
+			if(adc_frequency_initial > 0xFFFF){
+				adc_frequency = 0xFFFF;
+			}else{
+				adc_frequency = (u16) adc_frequency_initial;
+			}
+
+
+			// Convert the frequency to character that can be transmitted
+			transmission_packet[2*i + 2]  = (char) ((adc_frequency & 0xFF00) >> 8);
+			transmission_packet[2*i + 3]  = (char) adc_frequency & 0x00FF;
+
+			// Calculate the parity byte
+			parity = parity ^ ((adc_frequency & 0xFF00) >> 8);
+			parity = parity ^ (adc_frequency & 0x00FF);
+		}
+
+		// Add the parity byte to the transmission
+		transmission_packet[26] = (char) parity;
+
+		// Transmit the data
+		for(int i = 0; i < 27; i++){
+			outbyte(transmission_packet[i]);
+		}
+
+
+	}
+}
+

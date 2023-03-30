@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="application_project_system-bitFile" value="${project_loc:application_project}/_ide/bitstream/design_1_mk3.bit"/>
+	<item key="application_project_system-bmmFile" value="${project_loc:application_project}/_ide/bitstream/design_1_mk3.mmi"/>
+	<item key="application_project_system-target" value="Local"/>
+	<item key="application_project_system-device" value="Auto Detect"/>
+	<item key="application_project_system-partial_bit" value="false"/>
+	<item key="application_project_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="application_project_system"/>
+	<item key="application_project_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Cmod A7 - 15T 210328B560EEA&quot;,&quot;indexContextMap&quot;:{&quot;4&quot;:&quot;jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0&quot;}}]}"/>
+</section>

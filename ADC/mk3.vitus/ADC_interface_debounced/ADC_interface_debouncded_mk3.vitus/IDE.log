@@ -1,0 +1,399 @@
+13:41:15 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+13:41:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+13:41:17 INFO  : Registering command handlers for Vitis TCF services
+13:41:17 INFO  : Platform repository initialization has completed.
+13:41:19 INFO  : XSCT server has started successfully.
+13:41:19 INFO  : Successfully done setting XSCT server connection channel  
+13:41:19 INFO  : plnx-install-location is set to ''
+13:41:19 INFO  : Successfully done setting workspace for the tool. 
+13:41:19 INFO  : Successfully done query RDI_DATADIR 
+13:42:11 INFO  : Result from executing command 'getProjects': design_1_mk3
+13:42:11 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+13:42:12 WARN  : An unexpected exception occurred in the module 'platform project logging'
+13:42:12 INFO  : Platform 'design_1_mk3' is added to custom repositories.
+13:42:14 INFO  : Platform 'design_1_mk3' is added to custom repositories.
+13:42:49 INFO  : Result from executing command 'getProjects': design_1_mk3
+13:42:49 INFO  : Result from executing command 'getPlatforms': design_1_mk3|C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/design_1_mk3.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+13:42:49 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:42:54 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:42:57 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:43:00 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:43:15 INFO  : Bit file 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit' is generated.
+13:43:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:43:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+13:43:15 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+13:43:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:43:25 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+13:43:25 INFO  : 'jtag frequency' command is executed.
+13:43:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+13:43:25 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+13:43:25 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+13:43:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:43:25 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:25 INFO  : System reset is completed.
+13:43:28 INFO  : 'after 3000' command is executed.
+13:43:28 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:29 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+13:43:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+13:43:29 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:29 INFO  : 'con' command is executed.
+13:43:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:43:29 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+13:43:35 INFO  : Disconnected from the channel tcfchan#2.
+13:43:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:43:36 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+13:43:36 INFO  : 'jtag frequency' command is executed.
+13:43:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+13:43:37 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+13:43:37 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+13:43:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:43:37 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:37 INFO  : System reset is completed.
+13:43:40 INFO  : 'after 3000' command is executed.
+13:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:40 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+13:43:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+13:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:40 INFO  : 'con' command is executed.
+13:43:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:43:40 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+13:43:49 INFO  : Disconnected from the channel tcfchan#3.
+13:43:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:43:50 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+13:43:50 INFO  : 'jtag frequency' command is executed.
+13:43:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+13:43:51 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+13:43:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+13:43:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:43:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:51 INFO  : System reset is completed.
+13:43:54 INFO  : 'after 3000' command is executed.
+13:43:54 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:54 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+13:43:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+13:43:54 INFO  : Context for processor 'microblaze_0' is selected.
+13:43:54 INFO  : 'con' command is executed.
+13:43:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:43:54 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+13:44:01 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:44:14 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+13:44:18 INFO  : Disconnected from the channel tcfchan#4.
+13:44:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:19 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+13:44:19 INFO  : 'jtag frequency' command is executed.
+13:44:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+13:44:20 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+13:44:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:44:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+13:44:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:44:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:44:20 INFO  : System reset is completed.
+13:44:23 INFO  : 'after 3000' command is executed.
+13:44:23 INFO  : Context for processor 'microblaze_0' is selected.
+13:44:23 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+13:44:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+13:44:23 INFO  : Context for processor 'microblaze_0' is selected.
+13:44:23 INFO  : 'con' command is executed.
+13:44:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:44:23 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+14:04:15 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+14:04:19 INFO  : Disconnected from the channel tcfchan#5.
+14:04:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:04:21 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+14:04:21 INFO  : 'jtag frequency' command is executed.
+14:04:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+14:04:21 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+14:04:21 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+14:04:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:04:21 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:21 INFO  : System reset is completed.
+14:04:24 INFO  : 'after 3000' command is executed.
+14:04:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:24 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+14:04:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+14:04:24 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:24 INFO  : 'con' command is executed.
+14:04:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:04:24 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+14:06:19 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+14:06:24 INFO  : Disconnected from the channel tcfchan#6.
+14:06:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:06:25 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B56076A' is selected.
+14:06:25 INFO  : 'jtag frequency' command is executed.
+14:06:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}' command is executed.
+14:06:25 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+14:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+14:06:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:25 INFO  : System reset is completed.
+14:06:28 INFO  : 'after 3000' command is executed.
+14:06:28 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:29 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+14:06:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B56076A" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B56076A-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+14:06:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:06:29 INFO  : 'con' command is executed.
+14:06:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:06:29 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+14:30:36 INFO  : Bit file 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit' is generated.
+14:30:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}' command is executed.
+14:30:36 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+14:30:41 INFO  : Disconnected from the channel tcfchan#7.
+14:30:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:30:42 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B560EEA' is selected.
+14:30:42 INFO  : 'jtag frequency' command is executed.
+14:30:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}' command is executed.
+14:30:43 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+14:30:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:30:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+14:30:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:30:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:30:43 INFO  : System reset is completed.
+14:30:46 INFO  : 'after 3000' command is executed.
+14:30:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:30:46 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+14:30:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+14:30:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:30:46 INFO  : 'con' command is executed.
+14:30:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:30:46 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+14:44:08 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+15:09:07 INFO  : Bit file 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit' is generated.
+15:09:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:09:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}' command is executed.
+15:09:07 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+15:09:14 INFO  : Disconnected from the channel tcfchan#8.
+15:09:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:09:15 INFO  : Jtag cable 'Digilent Cmod A7 - 15T 210328B560EEA' is selected.
+15:09:15 INFO  : 'jtag frequency' command is executed.
+15:09:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}' command is executed.
+15:09:15 INFO  : Device configured successfully with "C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit"
+15:09:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:09:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa'.
+15:09:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:09:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:09:15 INFO  : System reset is completed.
+15:09:18 INFO  : 'after 3000' command is executed.
+15:09:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:09:18 INFO  : The application 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf' is downloaded to processor 'microblaze_0'.
+15:09:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Cmod A7 - 15T 210328B560EEA" && level==0 && jtag_device_ctx=="jsn-Cmod A7 - 15T-210328B560EEA-0362e093-0"}
+fpga -file C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/hw/design_1_mk3.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/application_project/Debug/application_project.elf
+----------------End of Script----------------
+
+15:09:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:09:19 INFO  : 'con' command is executed.
+15:09:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:09:19 INFO  : Launch script is exported to file 'C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\application_project_system\_ide\scripts\debugger_application_project-default.tcl'
+15:21:48 INFO  : Disconnected from the channel tcfchan#9.
+13:44:18 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+13:44:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+13:44:22 INFO  : Registering command handlers for Vitis TCF services
+13:44:23 INFO  : Platform repository initialization has completed.
+13:44:23 INFO  : XSCT server has started successfully.
+13:44:23 INFO  : Successfully done setting XSCT server connection channel  
+13:44:23 INFO  : plnx-install-location is set to ''
+13:44:27 INFO  : Successfully done setting workspace for the tool. 
+13:44:27 INFO  : Successfully done query RDI_DATADIR 
+13:44:35 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+15:46:11 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:49:10 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:49:44 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:50:39 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:07:05 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+16:04:39 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+16:04:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+16:04:43 INFO  : Registering command handlers for Vitis TCF services
+16:04:43 INFO  : XSCT server has started successfully.
+16:04:44 INFO  : Platform repository initialization has completed.
+16:04:48 INFO  : plnx-install-location is set to ''
+16:04:48 INFO  : Successfully done setting XSCT server connection channel  
+16:04:48 INFO  : Successfully done query RDI_DATADIR 
+16:04:48 INFO  : Successfully done setting workspace for the tool. 
+15:51:07 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:51:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+15:51:11 INFO  : Registering command handlers for Vitis TCF services
+15:51:11 INFO  : XSCT server has started successfully.
+15:51:11 INFO  : Platform repository initialization has completed.
+15:51:13 INFO  : plnx-install-location is set to ''
+15:51:13 INFO  : Successfully done setting XSCT server connection channel  
+15:51:13 INFO  : Successfully done query RDI_DATADIR 
+15:51:13 INFO  : Successfully done setting workspace for the tool. 
+20:47:42 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+20:47:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+20:47:45 INFO  : XSCT server has started successfully.
+20:47:45 INFO  : Successfully done setting XSCT server connection channel  
+20:47:45 INFO  : plnx-install-location is set to ''
+20:47:45 INFO  : Successfully done setting workspace for the tool. 
+20:47:45 INFO  : Successfully done query RDI_DATADIR 
+20:47:45 INFO  : Registering command handlers for Vitis TCF services
+20:47:45 INFO  : Platform repository initialization has completed.
+15:50:37 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:50:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+15:50:40 INFO  : XSCT server has started successfully.
+15:50:40 INFO  : Successfully done setting XSCT server connection channel  
+15:50:40 INFO  : plnx-install-location is set to ''
+15:50:41 INFO  : Registering command handlers for Vitis TCF services
+15:50:41 INFO  : Platform repository initialization has completed.
+15:50:43 INFO  : Successfully done setting workspace for the tool. 
+15:50:43 INFO  : Successfully done query RDI_DATADIR 
+16:07:18 INFO  : Result from executing command 'getProjects': design_1_mk3
+16:07:18 INFO  : Result from executing command 'getPlatforms': design_1_mk3|C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/design_1_mk3.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+16:07:19 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+14:15:26 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+14:15:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+14:15:34 INFO  : Registering command handlers for Vitis TCF services
+14:15:34 INFO  : XSCT server has started successfully.
+14:15:34 INFO  : Platform repository initialization has completed.
+14:15:38 INFO  : plnx-install-location is set to ''
+14:15:38 INFO  : Successfully done setting XSCT server connection channel  
+14:15:38 INFO  : Successfully done query RDI_DATADIR 
+14:15:38 INFO  : Successfully done setting workspace for the tool. 
+14:42:34 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+14:44:06 INFO  : Checking for BSP changes to sync application flags for project 'application_project'...
+15:28:51 DEBUG : Logs will be stored at 'C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/IDE.log'.
+15:28:51 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\owenm\Programming\Verilog\ADC_interface_debounced\ADC_interface_debouncded_mk3.vitus\temp_xsdb_launch_script.tcl
+15:28:54 INFO  : XSCT server has started successfully.
+15:28:55 INFO  : Registering command handlers for Vitis TCF services
+15:28:55 INFO  : Platform repository initialization has completed.
+15:28:57 INFO  : plnx-install-location is set to ''
+15:28:57 INFO  : Successfully done setting XSCT server connection channel  
+15:28:57 INFO  : Successfully done query RDI_DATADIR 
+15:28:57 INFO  : Successfully done setting workspace for the tool. 

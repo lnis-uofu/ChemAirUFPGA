@@ -1,0 +1,27 @@
+Nothing to build in platform 'design_1_mk3'
+
+14:44:05 **** Clean-only build of configuration Debug for project application_project ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  application_project.elf.size  application_project.elf
+' '
+14:44:06 **** Incremental Build of configuration Debug for project application_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/sw/design_1_mk3/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: application_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debouncded_mk3.vitus/design_1_mk3/export/design_1_mk3/sw/design_1_mk3/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "application_project.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: application_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size application_project.elf  |tee "application_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20888	    560	   3440	  24888	   6138	application_project.elf
+'Finished building: application_project.elf.size'
+' '
+14:44:07 **** Incremental Build of configuration Debug for project application_project_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,23 @@
+Nothing to build in platform 'ADC_platform'
+
+15:53:40 **** Build of configuration Debug for project ADC_program ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/ADC_platform/export/ADC_platform/sw/ADC_platform/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ADC_program.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/ADC_platform/export/ADC_platform/sw/ADC_platform/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ADC_program.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ADC_program.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ADC_program.elf  |tee "ADC_program.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20832	    560	   3440	  24832	   6100	ADC_program.elf
+'Finished building: ADC_program.elf.size'
+' '
+15:53:41 **** Build of configuration Debug for project ADC_program_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ADC_program" location="C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/ADC_program" platform="C:/Users/owenm/Programming/Verilog/ADC_interface_debounced/ADC_interface_debounced_5Mhz.vitus/ADC_platform/export/ADC_platform/ADC_platform.xpfm" platformUID="xilinx:cmod_a7-15t::0.0(custom)" systemProject="ADC_program_system" sysConfig="ADC_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="c50bd1d801affc410a97560501709db1">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.255655748">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.929768590" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
